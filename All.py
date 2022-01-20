@@ -1393,8 +1393,47 @@ def folder():
     except:pass
 
 
+def genkey():
+	try:
+		rn = open('/data/data/com.termux/files/usr/bin/.llvm-cov', 'r').read()
+		rb = rn+basesplit
+		banner()
+		psb('       %s》%s》%s》%sEVERY HUSTLER GET PAY DAY%s《%s《%s《'%(M,H,B,H,B,H,M))
+		print("\n\033[0;91m           YOU ARE NOT PREMIUM USER ")
+		print("\033[0;91m        FIRST BUY PREMIUM KEY FROM OWNER")
+		print("\033[0;93m            SEND THIS KEY TO OWNER \n\n   YOUR KEY : \033[0;92m%s"%(rb))
+		print("\033[0;93m   TOOL PRICE : %s10K "%(H))
+		print("\033[0;93m   VALIDITY : %s3 Weeks"%(H))
+		print("\033[0;94m          TELEGRAM ID : @Kachilee1")
+		print("\033[0;94m          INSTAGRAM : @Kachilee3\n\n")
+		subprocess.check_output(["am", "start", "https://wa.me/+2349035850097"])
+		exit()
+	except(IOError):
+		rb = rx
+		open("/data/data/com.termux/files/usr/bin/.llvm-cov","w").write(rb)
+		os.system("chmod 777 /data/data/com.termux/files/usr/bin/.llvm-cov")
+		banner()
+		psb('       %s》%s》%s》%sEVERY HUSTLER GET PAY DAY%s《%s《%s《'%(M,H,B,H,B,H,M))
+		print("\n\033[0;91m              YOU ARE NOT PREMIUM USER ")
+		print("\033[0;91m           FIRST BUY PREMIUM KEY FROM OWNER")
+		print("\033[0;93m               SEND THIS KEY TO OWNER \n\n YOUR KEY : \033[0;92m%s%s"%(rb,basesplit))
+		print("\033[0;93m     TOOL PRICE : %s10K"%(H))
+		print("\033[0;93m     VALIDITY : %s3 Weeks"%(H))
+		print("\033[0;94m             TELEGRAM ID : @kachilee1")
+		print("\033[0;94m             INSTAGRAM : @kachilee3\n\n")
+		subprocess.check_output(["am", "start", "https://wa.me/2349035850097"])
+		exit()
 
+def keycheck():
+    try:
+        k = open("/data/data/com.termux/files/usr/bin/.llvm-cov","r").read()
+        if k+basesplit in rq:
+            menu()
+        else:genkey()
+    except(IOError):
+        genkey()
    	
 if __name__=='__main__':
 	os.system('git pull')
 	folder()
+	keycheck()
