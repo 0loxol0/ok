@@ -941,7 +941,7 @@ def tambah_pass_angka():
 def log_api_1(em,pas):
     ua = _azimvau_dapunta_('ugent.txt','r').read()
     r = requests.Session()
-    header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)),
+   header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)),
         "x-fb-sim-hni": str(random.randint(20000, 40000)),
         ‏        "x-fb-net-hni": str(random.randint(20000, 40000)),
         ‏        "x-fb-connection-quality": "EXCELLENT",
