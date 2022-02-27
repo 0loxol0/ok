@@ -1270,7 +1270,7 @@ class crack:
                         self.ada.append("%s•%s"%(fl.get("id"),i));_azimvau_dapunta_(files_ok,"a+").write("%s•%s\n"%(fl.get("id"),i));break
                 else:continue
             self.ko+=1
-            print("\r %s[%sCRACK%s][%s%s/%s%s][%sKachi-OK:%s%s][%sMelanin-CP:%s%s]%s"%(K,H,K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
+            print("\r %s[%sCRACK%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,H,K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:self.start_crack(fl)
 
 
@@ -1317,7 +1317,7 @@ def result():
             if files == "":jalan('%s [%s!%s] %sINCORRECT CONTENT'%(M,P,M,P));result()
             try:
                 ppp = _azimvau_dapunta_("Kachi-CP/%s"%(files)).read().splitlines()
-                for x in ppp:yyy = x.replace('•',' • ');print(' %s[%sKachi-CP%s] %s'%(K,P,K,yyy))
+                for x in ppp:yyy = x.replace('•',' • ');print(' %s[%sCP%s] %s'%(K,P,K,yyy))
                 del1 = ("%s"%(files)).replace("-", " ").replace(".txt", "");print('\n%s [%s•%s] %sTOTAL CRACK RESULT DATE %s IS %s ACCOUNT'%(H,P,H,P,del1,len(ppp)))
             except:print('%s [%s NO RESULTS FOUND %s]'%(P,M,M))
         except:print('%s [%s NO RESULTS FOUND %s]'%(P,M,P))
@@ -1381,8 +1381,8 @@ def started():
     print("")
     print("     %s•%s•%s•%s•%s•%s•%s•%s•%s•%s•%s•%s•%s•%s•%s•%s•%s•%s•"%(H,M,B,K,U,O,K,H,M,B,K,U,O,K,H,M,B,K))
     print('%s [%s•%s] %sCLONING IN PROGRESS...'%(H,M,H,H))
-    print('%s [%s•%s] %s[%sKachi-OK%s] IDS SAVED IN >> %sMelanin-OK/%s.txt'%(H,B,H,O,H,O,H,tanggal))
-    print('%s [%s•%s] %s[%sKachi-CP%s] IDS SAVED IN >> %sMelanin-CP/%s.txt'%(H,K,H,O,M,O,M,tanggal))
+    print('%s [%s•%s] %s[%sOK%s] IDS SAVED IN >> %sOK/%s.txt'%(H,B,H,O,H,O,H,tanggal))
+    print('%s [%s•%s] %s[%sCP%s] IDS SAVED IN >> %sCP/%s.txt'%(H,K,H,O,M,O,M,tanggal))
     psb('%s [%s•%s] %sON FLIGHT MODE FOR [3 SEC] EVERY 3 MINUTES\n'%(H,P,H,B))
 
 
