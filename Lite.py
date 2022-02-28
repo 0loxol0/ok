@@ -1,17 +1,6 @@
 #!/usr/bin/python2
 # coding=utf-8
-##########################################################
-# AUTHOR : JEECK X NANO,RISKY,XENZI X GANZ,YUMSAA X NANO #
-# CONTAK : 081392505882 [WHATSAPP]                       #
-# GITHUB : HTTPS://GITHUB.COM/JEECK-XN                   #
-##########################################################
-#   OPEN SOURCE YA NGAB JANGAN DI PERJUAL BELIKAN OKH    #
-##########################################################
-#   JIKA ADA EROR TOLONG WHATSAPP SAYA : 081392505882    #
-##########################################################
-##############    JANGAN BILANK SC INI RECODE BWANK :)   #
-# >_ TERMUX  #       NAMA KU JECKO AKU ADA JECKO         #
-# >_ XNXCODE #   RECOD GPP ASAL CANTUMKAN NAMA AUTHOR :) #
+
 ##########################################################
 import os
 try:
@@ -125,8 +114,8 @@ def folder(): # < Buat follder
 def banner():
 	print('''
 \033[0;35m    __  ________  ______
-\033[0;35m   /  |/  /  _/ |/ /  _/   • CODE BY JEECK X NANO •
-\033[0;33m  / /|_/ // //    // / • HTTPS://GITHUB.COM/JEECK-XN•
+\033[0;35m   /  |/  /  _/ |/ /  _/   •  •Hacker Libya 
+\033[0;33m  / /|_/ // //    // / • HTTPS://GITHUB.COM/ALZWAGE•
 \033[0;33m /_/  /_/___/_/|_/___/
 ''')
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
@@ -156,13 +145,13 @@ def mmmasuk():
     	jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m  ================================================")
         jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m                JOIN GROUP WA + FB ")
         jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m  ================================================")
-        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m  (1 Komunitas termux indonesia [ FACEBOOK ] ")
+        jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m  (1 Hacker Libya [ FACEBOOK ] ")
         jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m  (2 Xnxcode TEAM [ WHATSAPP ] ")
         _hay_tayo_hay_nano_ = raw_input(" \n \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Input : ")
         if _hay_tayo_hay_nano_ in(""):
         	print ("%s [+] Kentod lu "%(M));jeda(2)
         elif _hay_tayo_hay_nano_ in("1","01"):
-        	os.system("xdg-open https://www.facebook.com/groups/319376899697354")
+        	os.system("xdg-open https://www.facebook.com/ahmedalzwage.03")
                 _kem_ = raw_input("\n \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m [ ENTER ]")
                 mmmasuk() 
         elif _hay_tayo_hay_nano_ in("2","02"):
@@ -277,9 +266,9 @@ def gobloklu():
    jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Kamu bukan userpermium")
    jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m hubungi author jika ingin membeli FILE PREMIUM")
    jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m CONTACK :")
-   jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m         ( Wa : 081392505882")
-   jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m         ( Fb : https://www.facebook.com/jecko.ramadhan.9")
-   jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m         ( Em : jeckoramadhann@gmail.com")
+   jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m         ( Wa : 0921762445")
+   jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m         ( Fb : https://www.facebook.com/Ahmedalzwage.03")
+   jeeck("\033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m         ( Em : ahmed.alzwage01@gmail.com")
    raw_input('\n%s[%s+%s] \033[0;33m[%s Enter \033[0;33m] '%(B,J,B,U,))
    masuk()
 # BIASA :V
