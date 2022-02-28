@@ -606,7 +606,7 @@ class ngentod:
             jeeck("\n \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Pilih sesuka hati kalian")
             jeeck(" \033[0;36m[\033[0;35m1\033[0;36m]\033[0;00m B-Api [ FAST CRACK ]")
             jeeck(" \033[0;36m[\033[0;35m2\033[0;36m]\033[0;00m Mbasic [ Selow[ RECOMENDED ]]")
-            jeeck(" \033[0;36m[\033[0;35m3\033[0;36m]\033[0;00m Mobile [ Supper Sellow [ LEBIH BANYAK HASIL [LEBIH RECOMEND]]]")
+            jeeck(" \033[0;36m[\033[0;35m3\033[0;36m]\033[0;00m Mobile [ Supper Sellow [LEBIH RECOMEND]]]")
             self.langsung()
         else:
             jeeck(" \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Isi dengan benar");jeda(2);menu()
